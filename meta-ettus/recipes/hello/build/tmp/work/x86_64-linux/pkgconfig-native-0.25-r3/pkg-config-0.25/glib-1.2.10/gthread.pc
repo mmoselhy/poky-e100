@@ -1,0 +1,11 @@
+prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr
+libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include
+
+Name: GThread
+Description: Thread support for GLib
+Requires: glib
+Version: 1.2.10
+Libs: -L${libdir} -lgthread -lpthread
+Cflags:  -D_REENTRANT

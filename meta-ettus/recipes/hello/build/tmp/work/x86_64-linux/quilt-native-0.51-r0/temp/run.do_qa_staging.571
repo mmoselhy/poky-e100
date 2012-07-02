@@ -1,0 +1,9 @@
+
+def do_qa_staging(d):
+    bb.note("QA checking staging")
+
+    if not package_qa_check_staged(d.expand('/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/sysroot-destdir///media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib'), d):
+        bb.fatal("QA staging was broken by the package built above")
+
+
+do_qa_staging(d)

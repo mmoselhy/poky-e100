@@ -1,0 +1,25 @@
+Host Info: Linux mmoselhy-lptp.egc.mentorg.com 3.2.10-3.fc16.x86_64 #1 SMP Thu Mar 15 19:39:46 UTC 2012 x86_64 x86_64 
+Build Started: 1332494306.95 
+Failed at: hello-2012.3-r0 at task: do_fetch 
+Elapsed time: 0.26 seconds 
+CPU usage: 4.3% 
+EndIOinProgress: 1
+EndReadsComp: 497459
+EndReadsMerged: 15286514
+EndSectRead: 451320
+EndSectWrite: 49787312
+EndTimeIO: 336538
+EndTimeReads: 141901
+EndTimeWrite: 11665430
+EndWTimeIO: 12136464
+EndWritesComp: 746456
+StartIOinProgress: 0
+StartReadsComp: 497459
+StartReadsMerged: 15278202
+StartSectRead: 451187
+StartSectWrite: 49787312
+StartTimeIO: 336407
+StartTimeReads: 141901
+StartTimeWrite: 11665430
+StartWTimeIO: 12136330
+StartWritesComp: 746456

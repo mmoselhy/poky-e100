@@ -1,0 +1,18 @@
+
+def base_do_fetch(d):
+
+	src_uri = (d.getVar('SRC_URI', True) or "").split()
+	if len(src_uri) == 0:
+		return
+
+	localdata = bb.data.createCopy(d)
+	bb.data.update_data(localdata)
+
+        try:
+            fetcher = bb.fetch2.Fetch(src_uri, localdata)
+            fetcher.download()
+        except bb.fetch2.BBFetchException, e:
+            raise bb.build.FuncFailed(e)
+
+
+base_do_fetch(d)

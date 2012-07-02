@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493700.56 
+m4-native-1.4.16-r2: do_fetch: Elapsed time: 19.65 seconds 
+CPU usage: 0.0% 
+EndIOinProgress: 0
+EndReadsComp: 496988
+EndReadsMerged: 10891562
+EndSectRead: 273287
+EndSectWrite: 42452104
+EndTimeIO: 259428
+EndTimeReads: 123837
+EndTimeWrite: 9598989
+EndWTimeIO: 9892035
+EndWritesComp: 691758
+StartIOinProgress: 3
+StartReadsComp: 496988
+StartReadsMerged: 9558850
+StartSectRead: 252871
+StartSectWrite: 42444968
+StartTimeIO: 248708
+StartTimeReads: 123822
+StartTimeWrite: 9598890
+StartWTimeIO: 9871559
+StartWritesComp: 690881
+Status: PASSED 
+Ended: 1332493720.20 

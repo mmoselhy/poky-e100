@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493794.42 
+automake-native-1.11.2-r2: do_unpack: Elapsed time: 0.25 seconds 
+CPU usage: 11.4% 
+EndIOinProgress: 3
+EndReadsComp: 496999
+EndReadsMerged: 13594258
+EndSectRead: 318700
+EndSectWrite: 44528912
+EndTimeIO: 288440
+EndTimeReads: 126886
+EndTimeWrite: 10272402
+EndWTimeIO: 10610796
+EndWritesComp: 705833
+StartIOinProgress: 0
+StartReadsComp: 496999
+StartReadsMerged: 13576706
+StartSectRead: 318494
+StartSectWrite: 44528912
+StartTimeIO: 288280
+StartTimeReads: 126886
+StartTimeWrite: 10272402
+StartWTimeIO: 10610588
+StartWritesComp: 705833
+Status: PASSED 
+Ended: 1332493794.68 

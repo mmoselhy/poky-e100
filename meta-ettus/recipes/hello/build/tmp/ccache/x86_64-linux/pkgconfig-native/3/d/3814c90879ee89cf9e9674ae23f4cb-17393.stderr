@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:73:1: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+conftest.c:73:1: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+conftest.c:73:1: warning: statement with no effect [-Wunused-value]

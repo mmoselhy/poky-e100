@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493801.23 
+automake-native-1.11.2-r2: do_populate_sysroot: Elapsed time: 0.40 seconds 
+CPU usage: 8.0% 
+EndIOinProgress: 0
+EndReadsComp: 497108
+EndReadsMerged: 13754218
+EndSectRead: 325435
+EndSectWrite: 44954664
+EndTimeIO: 292607
+EndTimeReads: 129577
+EndTimeWrite: 10433930
+EndWTimeIO: 10779048
+EndWritesComp: 709580
+StartIOinProgress: 0
+StartReadsComp: 497108
+StartReadsMerged: 13754194
+StartSectRead: 325427
+StartSectWrite: 44950272
+StartTimeIO: 292586
+StartTimeReads: 129560
+StartTimeWrite: 10433911
+StartWTimeIO: 10779021
+StartWritesComp: 709580
+Status: PASSED 
+Ended: 1332493801.63 

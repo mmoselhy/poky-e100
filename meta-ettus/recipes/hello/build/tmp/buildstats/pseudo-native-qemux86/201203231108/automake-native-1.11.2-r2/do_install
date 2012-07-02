@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493799.59 
+automake-native-1.11.2-r2: do_install: Elapsed time: 1.13 seconds 
+CPU usage: 5.1% 
+EndIOinProgress: 0
+EndReadsComp: 497108
+EndReadsMerged: 13753754
+EndSectRead: 324591
+EndSectWrite: 44946688
+EndTimeIO: 292525
+EndTimeReads: 129550
+EndTimeWrite: 10433900
+EndWTimeIO: 10778174
+EndWritesComp: 709580
+StartIOinProgress: 129
+StartReadsComp: 496999
+StartReadsMerged: 13751730
+StartSectRead: 322137
+StartSectWrite: 44668424
+StartTimeIO: 291414
+StartTimeReads: 129167
+StartTimeWrite: 10327165
+StartWTimeIO: 10676813
+StartWritesComp: 705974
+Status: PASSED 
+Ended: 1332493800.72 

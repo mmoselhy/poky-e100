@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493874.89 
+pkgconfig-native-0.25-r3: do_patch: Elapsed time: 0.27 seconds 
+CPU usage: 4.8% 
+EndIOinProgress: 1
+EndReadsComp: 497127
+EndReadsMerged: 13998954
+EndSectRead: 404665
+EndSectWrite: 48825208
+EndTimeIO: 312246
+EndTimeReads: 135578
+EndTimeWrite: 11608554
+EndWTimeIO: 12032985
+EndWritesComp: 714463
+StartIOinProgress: 2
+StartReadsComp: 497127
+StartReadsMerged: 13986850
+StartSectRead: 402659
+StartSectWrite: 48825200
+StartTimeIO: 312002
+StartTimeReads: 135577
+StartTimeWrite: 11608551
+StartWTimeIO: 12030976
+StartWritesComp: 714463
+Status: PASSED 
+Ended: 1332493875.16 

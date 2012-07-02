@@ -1,0 +1,6 @@
+
+def relocatable_binaries_preprocess(d):
+    rpath_replace(d.expand('/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/gnu-config-native-20111111-r1/sysroot-destdir/'), d)
+
+
+relocatable_binaries_preprocess(d)

@@ -1,0 +1,9 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/libtool-2.4.2.tar.gz to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/trailingslash.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/prefix-manpage-fix.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/rename-with-sysroot.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/use-sysroot-in-libpath.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/fix-final-rpath.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/avoid_absolute_paths_for_general_utils.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/fix-rpath.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/libtool/libtool/prefix.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/

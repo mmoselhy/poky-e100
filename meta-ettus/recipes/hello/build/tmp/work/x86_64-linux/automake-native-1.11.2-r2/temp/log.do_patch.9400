@@ -1,0 +1,4 @@
+NOTE: Applying patch 'prefer-cpio-over-pax-for-ustar-archives.patch' (../../../../meta/recipes-devtools/automake/automake/prefer-cpio-over-pax-for-ustar-archives.patch)
+NOTE: Applying patch 'python-libdir.patch' (../../../../meta/recipes-devtools/automake/automake/python-libdir.patch)
+NOTE: Applying patch 'automake_1.11.2_fix_for_pkglibexec_SCRIPTS.patch' (../../../../meta/recipes-devtools/automake/automake/automake_1.11.2_fix_for_pkglibexec_SCRIPTS.patch)
+NOTE: Applying patch 'py-compile-compile-only-optimized-byte-code.patch' (../../../../meta/recipes-devtools/automake/automake/py-compile-compile-only-optimized-byte-code.patch)

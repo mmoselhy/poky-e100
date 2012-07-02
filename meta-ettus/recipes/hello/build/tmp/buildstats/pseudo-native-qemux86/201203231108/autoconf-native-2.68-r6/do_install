@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493778.18 
+autoconf-native-2.68-r6: do_install: Elapsed time: 0.78 seconds 
+CPU usage: 5.9% 
+EndIOinProgress: 0
+EndReadsComp: 496999
+EndReadsMerged: 13445106
+EndSectRead: 315410
+EndSectWrite: 44438480
+EndTimeIO: 286492
+EndTimeReads: 126581
+EndTimeWrite: 10268026
+EndWTimeIO: 10603135
+EndWritesComp: 703735
+StartIOinProgress: 0
+StartReadsComp: 496999
+StartReadsMerged: 13445106
+StartSectRead: 315410
+StartSectWrite: 44438464
+StartTimeIO: 286491
+StartTimeReads: 126579
+StartTimeWrite: 10268025
+StartWTimeIO: 10603134
+StartWritesComp: 703735
+Status: PASSED 
+Ended: 1332493778.97 

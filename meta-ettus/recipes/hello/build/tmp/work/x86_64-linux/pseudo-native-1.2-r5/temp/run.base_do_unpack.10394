@@ -1,0 +1,19 @@
+
+def base_do_unpack(d):
+	src_uri = (d.getVar('SRC_URI', True) or "").split()
+	if len(src_uri) == 0:
+		return
+
+	localdata = bb.data.createCopy(d)
+	bb.data.update_data(localdata)
+
+	rootdir = localdata.getVar('WORKDIR', True)
+
+        try:
+            fetcher = bb.fetch2.Fetch(src_uri, localdata)
+            fetcher.unpack(rootdir)
+        except bb.fetch2.BBFetchException, e:
+            raise bb.build.FuncFailed(e)
+
+
+base_do_unpack(d)

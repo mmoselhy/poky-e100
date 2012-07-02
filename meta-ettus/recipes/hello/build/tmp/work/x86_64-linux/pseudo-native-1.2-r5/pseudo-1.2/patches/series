@@ -1,0 +1,4 @@
+oe-config.patch -p1
+static_sqlite.patch -p1
+opendir.patch -p1
+renameat.patch -p1

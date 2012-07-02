@@ -1,0 +1,9 @@
+program_prefix.patch
+autoreconf-include.patch
+autoreconf-exclude.patch
+autoreconf-foreign.patch
+autoreconf-gnuconfigize.patch
+autoheader-nonfatal-warnings.patch
+config_site.patch
+remove-usr-local-lib-from-m4.patch
+fix_path_xtra.patch

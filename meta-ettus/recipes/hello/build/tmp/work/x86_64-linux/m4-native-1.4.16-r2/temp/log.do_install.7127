@@ -1,0 +1,89 @@
+NOTE: make infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info DESTDIR=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image install
+make  install-recursive
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'
+Making install in .
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'
+Making install in examples
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/examples'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/examples'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/examples'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/examples'
+Making install in lib
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+make  install-am
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/build-aux/install-sh -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib ; \
+fi ; \
+if test -f /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.alias; then \
+  sed -f ref-add.sed /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.alias > /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.alias ; \
+  rm -f /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.alias ; \
+    rm -f /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/lib'
+Making install in src
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/src'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/src'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+  /usr/bin/install -c m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/src'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/src'
+Making install in doc
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/doc'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info"
+ /usr/bin/install -c -m 644 ./m4.info ./m4.info-1 ./m4.info-2 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info'
+ install-info --info-dir='/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info' '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info/m4.info'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1"
+ /usr/bin/install -c -m 644 ./m4.1 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/doc'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/doc'
+Making install in checks
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/checks'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/checks'
+Making install in tests
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make  install-recursive
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+Making install in .
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16/tests'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/m4-native-1.4.16-r2/m4-1.4.16'

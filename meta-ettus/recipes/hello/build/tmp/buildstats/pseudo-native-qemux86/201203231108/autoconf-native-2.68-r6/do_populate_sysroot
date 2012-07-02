@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493779.40 
+autoconf-native-2.68-r6: do_populate_sysroot: Elapsed time: 0.46 seconds 
+CPU usage: 7.9% 
+EndIOinProgress: 0
+EndReadsComp: 496999
+EndReadsMerged: 13445106
+EndSectRead: 315410
+EndSectWrite: 44449504
+EndTimeIO: 286530
+EndTimeReads: 126604
+EndTimeWrite: 10268180
+EndWTimeIO: 10603289
+EndWritesComp: 705059
+StartIOinProgress: 0
+StartReadsComp: 496999
+StartReadsMerged: 13445106
+StartSectRead: 315410
+StartSectWrite: 44449184
+StartTimeIO: 286529
+StartTimeReads: 126595
+StartTimeWrite: 10268179
+StartWTimeIO: 10603288
+StartWritesComp: 705059
+Status: PASSED 
+Ended: 1332493779.87 

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493973.62 
+sqlite3-native-3.7.10-r1: do_populate_sysroot: Elapsed time: 0.46 seconds 
+CPU usage: 7.7% 
+EndIOinProgress: 1
+EndReadsComp: 497127
+EndReadsMerged: 14202154
+EndSectRead: 422498
+EndSectWrite: 48997848
+EndTimeIO: 318631
+EndTimeReads: 137180
+EndTimeWrite: 11615870
+EndWTimeIO: 12058116
+EndWritesComp: 719933
+StartIOinProgress: 1
+StartReadsComp: 497127
+StartReadsMerged: 14194010
+StartSectRead: 422095
+StartSectWrite: 48997824
+StartTimeIO: 318230
+StartTimeReads: 137177
+StartTimeWrite: 11615869
+StartWTimeIO: 12057714
+StartWritesComp: 719933
+Status: PASSED 
+Ended: 1332493974.08 

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493984.23 
+pseudo-native-1.2-r5: do_install: Elapsed time: 0.10 seconds 
+CPU usage: 6.2% 
+EndIOinProgress: 1
+EndReadsComp: 497130
+EndReadsMerged: 14328266
+EndSectRead: 430638
+EndSectWrite: 49036344
+EndTimeIO: 322238
+EndTimeReads: 138400
+EndTimeWrite: 11616603
+EndWTimeIO: 12066980
+EndWritesComp: 722250
+StartIOinProgress: 0
+StartReadsComp: 497130
+StartReadsMerged: 14325794
+StartSectRead: 430604
+StartSectWrite: 49036328
+StartTimeIO: 322210
+StartTimeReads: 138398
+StartTimeWrite: 11616603
+StartWTimeIO: 12066945
+StartWritesComp: 722250
+Status: PASSED 
+Ended: 1332493984.33 

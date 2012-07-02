@@ -1,0 +1,134 @@
+automake (GNU automake) 1.11.2
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv2+: GNU GPL version 2 or later <http://gnu.org/licenses/gpl-2.0.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Tom Tromey <tromey@redhat.com>
+       and Alexandre Duret-Lutz <adl@gnu.org>.
+AUTOV is 1.11
+NOTE: Executing autoreconf --verbose --install --force --exclude=autopoint -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/ -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/ --force --warnings=cross 
+aclocal: unknown warning category `cross'
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+libtoolize: `AC_PROG_RANLIB' is rendered obsolete by `LT_INIT'
+aclocal: unknown warning category `cross'
+autoreconf: running: /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/autoconf --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/ --force --warnings=cross
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --foreign --add-missing --copy --force-missing --warnings=cross
+automake: unknown warning category `cross'
+autoreconf: running: gnu-configize
+autoreconf: Leaving directory `.'
+NOTE: Running /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/configure  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		   --disable-tcl --enable-shared --enable-threadsafe --disable-readline --enable-tempstore 
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-tcl, --enable-tempstore
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for x86_64-linux-gcc... ccache gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking dependency style of ccache gcc... none
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for x86_64-linux-gcc... (cached) ccache gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache gcc accepts -g... (cached) yes
+checking for ccache gcc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache gcc... (cached) none
+checking for x86_64-linux-ranlib... ranlib
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by ccache gcc... ld
+checking if the linker (ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... nm
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for ld option to reload object files... -r
+checking for x86_64-linux-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-linux-strip... strip
+checking for x86_64-linux-ranlib... (cached) ranlib
+checking command to parse nm output from ccache gcc object... ok
+checking for sysroot... no
+checking for x86_64-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc  -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache gcc supports -fno-rtti -fno-exceptions... no
+checking for ccache gcc option to produce PIC... -fPIC -DPIC
+checking if ccache gcc PIC flag -fPIC -DPIC works... yes
+checking if ccache gcc static flag -static works... yes
+checking if ccache gcc supports -c -o file.o... yes
+checking if ccache gcc supports -c -o file.o... (cached) yes
+checking whether the ccache gcc linker (ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whetherNOTE: Checking autotools environment for common misconfiguration
+NOTE: sqlite3-native: md5 checksum matched for file://sqlite3.h;endline=11;md5=65f0a57ca6928710b418c094b3570bb0
+ stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for fdatasync... yes
+checking for usleep... yes
+checking for fullfsync... no
+checking for localtime_r... yes
+checking for gmtime_r... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for library containing pthread_create... -lpthread
+checking for library containing dlopen... -ldl
+checking for whether to support dynamic extensions... yes
+checking for posix_fallocate... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sqlite3.pc
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-tcl, --enable-tempstore

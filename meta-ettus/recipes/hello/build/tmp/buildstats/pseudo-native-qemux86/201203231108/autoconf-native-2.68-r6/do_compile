@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493775.96 
+autoconf-native-2.68-r6: do_compile: Elapsed time: 1.75 seconds 
+CPU usage: 7.5% 
+EndIOinProgress: 0
+EndReadsComp: 496999
+EndReadsMerged: 13445106
+EndSectRead: 315410
+EndSectWrite: 44438464
+EndTimeIO: 286491
+EndTimeReads: 126579
+EndTimeWrite: 10268025
+EndWTimeIO: 10603134
+EndWritesComp: 703735
+StartIOinProgress: 0
+StartReadsComp: 496999
+StartReadsMerged: 13445098
+StartSectRead: 315408
+StartSectWrite: 44438448
+StartTimeIO: 286490
+StartTimeReads: 126577
+StartTimeWrite: 10268025
+StartWTimeIO: 10603133
+StartWritesComp: 703735
+Status: PASSED 
+Ended: 1332493777.71 

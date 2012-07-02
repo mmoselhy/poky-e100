@@ -1,0 +1,8 @@
+trailingslash.patch
+prefix-manpage-fix.patch
+rename-with-sysroot.patch
+use-sysroot-in-libpath.patch
+fix-final-rpath.patch
+avoid_absolute_paths_for_general_utils.patch
+fix-rpath.patch
+prefix.patch

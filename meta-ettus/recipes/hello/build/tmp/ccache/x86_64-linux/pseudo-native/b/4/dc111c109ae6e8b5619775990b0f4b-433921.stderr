@@ -1,0 +1,10 @@
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_fchmodat':
+ports/unix/guts/fchmodat.c:11:6: warning: variable 'save_errno' set but not used [-Wunused-but-set-variable]
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_fchownat':
+ports/unix/guts/fchownat.c:12:6: warning: variable 'doing_link' set but not used [-Wunused-but-set-variable]
+ports/unix/guts/fchownat.c:11:6: warning: variable 'save_errno' set but not used [-Wunused-but-set-variable]
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_system':
+ports/unix/guts/system.c:11:6: warning: unused variable 'pid' [-Wunused-variable]

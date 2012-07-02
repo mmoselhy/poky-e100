@@ -1,0 +1,207 @@
+
+OE Build Configuration:
+BB_VERSION        = "1.15.1"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.1+snapshot-20120323"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        = "master:224ff370b4636cdd33c47c1e6341ef43a67e0227"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 1 of 63 (ID: 11, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_fetch)
+NOTE: package quilt-native-0.51-r0: task do_fetch: Started
+NOTE: package quilt-native-0.51-r0: task do_fetch: Succeeded
+NOTE: Running task 2 of 63 (ID: 7, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_unpack)
+NOTE: package quilt-native-0.51-r0: task do_unpack: Started
+NOTE: package quilt-native-0.51-r0: task do_unpack: Succeeded
+NOTE: Running task 3 of 63 (ID: 8, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_patch)
+NOTE: package quilt-native-0.51-r0: task do_patch: Started
+NOTE: package quilt-native-0.51-r0: task do_patch: Succeeded
+NOTE: Running task 4 of 63 (ID: 12, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_configure)
+NOTE: package quilt-native-0.51-r0: task do_configure: Started
+NOTE: package quilt-native-0.51-r0: task do_configure: Succeeded
+NOTE: Running task 5 of 63 (ID: 13, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_compile)
+NOTE: package quilt-native-0.51-r0: task do_compile: Started
+NOTE: package quilt-native-0.51-r0: task do_compile: Succeeded
+NOTE: Running task 6 of 63 (ID: 9, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_install)
+NOTE: package quilt-native-0.51-r0: task do_install: Started
+NOTE: package quilt-native-0.51-r0: task do_install: Succeeded
+NOTE: Running task 7 of 63 (ID: 10, /media/OE/poky/meta/recipes-devtools/quilt/quilt-native_0.51.bb, do_populate_sysroot)
+NOTE: package quilt-native-0.51-r0: task do_populate_sysroot: Started
+NOTE: package quilt-native-0.51-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 8 of 63 (ID: 53, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_fetch)
+NOTE: package gnu-config-native-20111111-r1: task do_fetch: Started
+NOTE: package gnu-config-native-20111111-r1: task do_fetch: Succeeded
+NOTE: Running task 9 of 63 (ID: 49, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_unpack)
+NOTE: package gnu-config-native-20111111-r1: task do_unpack: Started
+NOTE: package gnu-config-native-20111111-r1: task do_unpack: Succeeded
+NOTE: Running task 10 of 63 (ID: 50, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_patch)
+NOTE: package gnu-config-native-20111111-r1: task do_patch: Started
+NOTE: package gnu-config-native-20111111-r1: task do_patch: Succeeded
+NOTE: Running task 11 of 63 (ID: 54, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_configure)
+NOTE: package gnu-config-native-20111111-r1: task do_configure: Started
+NOTE: package gnu-config-native-20111111-r1: task do_configure: Succeeded
+NOTE: Running task 12 of 63 (ID: 55, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_compile)
+NOTE: package gnu-config-native-20111111-r1: task do_compile: Started
+NOTE: package gnu-config-native-20111111-r1: task do_compile: Succeeded
+NOTE: Running task 13 of 63 (ID: 51, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_install)
+NOTE: package gnu-config-native-20111111-r1: task do_install: Started
+NOTE: package gnu-config-native-20111111-r1: task do_install: Succeeded
+NOTE: Running task 14 of 63 (ID: 52, virtual:native:/media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config_20111111.bb, do_populate_sysroot)
+NOTE: package gnu-config-native-20111111-r1: task do_populate_sysroot: Started
+NOTE: package gnu-config-native-20111111-r1: task do_populate_sysroot: Succeeded
+NOTE: Running task 15 of 63 (ID: 60, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_fetch)
+NOTE: package m4-native-1.4.16-r2: task do_fetch: Started
+NOTE: package m4-native-1.4.16-r2: task do_fetch: Succeeded
+NOTE: Running task 16 of 63 (ID: 56, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_unpack)
+NOTE: package m4-native-1.4.16-r2: task do_unpack: Started
+NOTE: package m4-native-1.4.16-r2: task do_unpack: Succeeded
+NOTE: Running task 17 of 63 (ID: 57, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_patch)
+NOTE: package m4-native-1.4.16-r2: task do_patch: Started
+NOTE: package m4-native-1.4.16-r2: task do_patch: Succeeded
+NOTE: Running task 18 of 63 (ID: 61, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_configure)
+NOTE: package m4-native-1.4.16-r2: task do_configure: Started
+NOTE: package m4-native-1.4.16-r2: task do_configure: Succeeded
+NOTE: Running task 19 of 63 (ID: 62, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_compile)
+NOTE: package m4-native-1.4.16-r2: task do_compile: Started
+NOTE: package m4-native-1.4.16-r2: task do_compile: Succeeded
+NOTE: Running task 20 of 63 (ID: 58, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_install)
+NOTE: package m4-native-1.4.16-r2: task do_install: Started
+NOTE: package m4-native-1.4.16-r2: task do_install: Succeeded
+NOTE: Running task 21 of 63 (ID: 59, /media/OE/poky/meta/recipes-devtools/m4/m4-native_1.4.16.bb, do_populate_sysroot)
+NOTE: package m4-native-1.4.16-r2: task do_populate_sysroot: Started
+NOTE: package m4-native-1.4.16-r2: task do_populate_sysroot: Succeeded
+NOTE: Running task 22 of 63 (ID: 32, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_fetch)
+NOTE: package autoconf-native-2.68-r6: task do_fetch: Started
+NOTE: package autoconf-native-2.68-r6: task do_fetch: Succeeded
+NOTE: Running task 23 of 63 (ID: 28, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_unpack)
+NOTE: package autoconf-native-2.68-r6: task do_unpack: Started
+NOTE: package autoconf-native-2.68-r6: task do_unpack: Succeeded
+NOTE: Running task 24 of 63 (ID: 29, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_patch)
+NOTE: package autoconf-native-2.68-r6: task do_patch: Started
+NOTE: package autoconf-native-2.68-r6: task do_patch: Succeeded
+NOTE: Running task 25 of 63 (ID: 33, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_configure)
+NOTE: package autoconf-native-2.68-r6: task do_configure: Started
+NOTE: package autoconf-native-2.68-r6: task do_configure: Succeeded
+NOTE: Running task 26 of 63 (ID: 34, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_compile)
+NOTE: package autoconf-native-2.68-r6: task do_compile: Started
+NOTE: package autoconf-native-2.68-r6: task do_compile: Succeeded
+NOTE: Running task 27 of 63 (ID: 30, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_install)
+NOTE: package autoconf-native-2.68-r6: task do_install: Started
+NOTE: package autoconf-native-2.68-r6: task do_install: Succeeded
+NOTE: Running task 28 of 63 (ID: 31, virtual:native:/media/OE/poky/meta/recipes-devtools/autoconf/autoconf_2.68.bb, do_populate_sysroot)
+NOTE: package autoconf-native-2.68-r6: task do_populate_sysroot: Started
+NOTE: package autoconf-native-2.68-r6: task do_populate_sysroot: Succeeded
+NOTE: Running task 29 of 63 (ID: 39, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_fetch)
+NOTE: package automake-native-1.11.2-r2: task do_fetch: Started
+NOTE: package automake-native-1.11.2-r2: task do_fetch: Succeeded
+NOTE: Running task 30 of 63 (ID: 35, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_unpack)
+NOTE: package automake-native-1.11.2-r2: task do_unpack: Started
+NOTE: package automake-native-1.11.2-r2: task do_unpack: Succeeded
+NOTE: Running task 31 of 63 (ID: 36, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_patch)
+NOTE: package automake-native-1.11.2-r2: task do_patch: Started
+NOTE: package automake-native-1.11.2-r2: task do_patch: Succeeded
+NOTE: Running task 32 of 63 (ID: 40, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_configure)
+NOTE: package automake-native-1.11.2-r2: task do_configure: Started
+NOTE: package automake-native-1.11.2-r2: task do_configure: Succeeded
+NOTE: Running task 33 of 63 (ID: 41, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_compile)
+NOTE: package automake-native-1.11.2-r2: task do_compile: Started
+NOTE: package automake-native-1.11.2-r2: task do_compile: Succeeded
+NOTE: Running task 34 of 63 (ID: 37, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_install)
+NOTE: package automake-native-1.11.2-r2: task do_install: Started
+NOTE: package automake-native-1.11.2-r2: task do_install: Succeeded
+NOTE: Running task 35 of 63 (ID: 38, virtual:native:/media/OE/poky/meta/recipes-devtools/automake/automake_1.11.2.bb, do_populate_sysroot)
+NOTE: package automake-native-1.11.2-r2: task do_populate_sysroot: Started
+NOTE: package automake-native-1.11.2-r2: task do_populate_sysroot: Succeeded
+NOTE: Running task 36 of 63 (ID: 46, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_fetch)
+NOTE: package libtool-native-2.4.2-r2.0: task do_fetch: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_fetch: Succeeded
+NOTE: Running task 37 of 63 (ID: 42, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_unpack)
+NOTE: package libtool-native-2.4.2-r2.0: task do_unpack: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_unpack: Succeeded
+NOTE: Running task 38 of 63 (ID: 43, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_patch)
+NOTE: package libtool-native-2.4.2-r2.0: task do_patch: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_patch: Succeeded
+NOTE: Running task 39 of 63 (ID: 47, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_configure)
+NOTE: package libtool-native-2.4.2-r2.0: task do_configure: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_configure: Succeeded
+NOTE: Running task 40 of 63 (ID: 48, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_compile)
+NOTE: package libtool-native-2.4.2-r2.0: task do_compile: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_compile: Succeeded
+NOTE: Running task 41 of 63 (ID: 44, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_install)
+NOTE: package libtool-native-2.4.2-r2.0: task do_install: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_install: Succeeded
+NOTE: Running task 42 of 63 (ID: 45, /media/OE/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_populate_sysroot)
+NOTE: package libtool-native-2.4.2-r2.0: task do_populate_sysroot: Started
+NOTE: package libtool-native-2.4.2-r2.0: task do_populate_sysroot: Succeeded
+NOTE: Running task 43 of 63 (ID: 25, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_fetch)
+NOTE: package pkgconfig-native-0.25-r3: task do_fetch: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_fetch: Succeeded
+NOTE: Running task 44 of 63 (ID: 21, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_unpack)
+NOTE: package pkgconfig-native-0.25-r3: task do_unpack: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_unpack: Succeeded
+NOTE: Running task 45 of 63 (ID: 22, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_patch)
+NOTE: package pkgconfig-native-0.25-r3: task do_patch: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_patch: Succeeded
+NOTE: Running task 46 of 63 (ID: 26, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_configure)
+NOTE: package pkgconfig-native-0.25-r3: task do_configure: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_configure: Succeeded
+NOTE: Running task 47 of 63 (ID: 27, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_compile)
+NOTE: package pkgconfig-native-0.25-r3: task do_compile: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_compile: Succeeded
+NOTE: Running task 48 of 63 (ID: 23, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_install)
+NOTE: package pkgconfig-native-0.25-r3: task do_install: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_install: Succeeded
+NOTE: Running task 49 of 63 (ID: 24, virtual:native:/media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.25.bb, do_populate_sysroot)
+NOTE: package pkgconfig-native-0.25-r3: task do_populate_sysroot: Started
+NOTE: package pkgconfig-native-0.25-r3: task do_populate_sysroot: Succeeded
+NOTE: Running task 50 of 63 (ID: 18, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_fetch)
+NOTE: package sqlite3-native-3.7.10-r1: task do_fetch: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_fetch: Succeeded
+NOTE: Running task 51 of 63 (ID: 14, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_unpack)
+NOTE: package sqlite3-native-3.7.10-r1: task do_unpack: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_unpack: Succeeded
+NOTE: Running task 52 of 63 (ID: 15, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_patch)
+NOTE: package sqlite3-native-3.7.10-r1: task do_patch: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_patch: Succeeded
+NOTE: Running task 53 of 63 (ID: 19, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_configure)
+NOTE: package sqlite3-native-3.7.10-r1: task do_configure: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_configure: Succeeded
+NOTE: Running task 54 of 63 (ID: 20, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_compile)
+NOTE: package sqlite3-native-3.7.10-r1: task do_compile: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_compile: Succeeded
+NOTE: Running task 55 of 63 (ID: 16, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_install)
+NOTE: package sqlite3-native-3.7.10-r1: task do_install: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_install: Succeeded
+NOTE: Running task 56 of 63 (ID: 17, virtual:native:/media/OE/poky/meta/recipes-support/sqlite/sqlite3_3.7.10.bb, do_populate_sysroot)
+NOTE: package sqlite3-native-3.7.10-r1: task do_populate_sysroot: Started
+NOTE: package sqlite3-native-3.7.10-r1: task do_populate_sysroot: Succeeded
+NOTE: Running task 57 of 63 (ID: 4, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_fetch)
+NOTE: package pseudo-native-1.2-r5: task do_fetch: Started
+NOTE: package pseudo-native-1.2-r5: task do_fetch: Succeeded
+NOTE: Running task 58 of 63 (ID: 0, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_unpack)
+NOTE: package pseudo-native-1.2-r5: task do_unpack: Started
+NOTE: package pseudo-native-1.2-r5: task do_unpack: Succeeded
+NOTE: Running task 59 of 63 (ID: 1, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_patch)
+NOTE: package pseudo-native-1.2-r5: task do_patch: Started
+NOTE: package pseudo-native-1.2-r5: task do_patch: Succeeded
+NOTE: Running task 60 of 63 (ID: 5, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_configure)
+NOTE: package pseudo-native-1.2-r5: task do_configure: Started
+NOTE: package pseudo-native-1.2-r5: task do_configure: Succeeded
+NOTE: Running task 61 of 63 (ID: 6, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_compile)
+NOTE: package pseudo-native-1.2-r5: task do_compile: Started
+NOTE: package pseudo-native-1.2-r5: task do_compile: Succeeded
+NOTE: Running task 62 of 63 (ID: 2, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_install)
+NOTE: package pseudo-native-1.2-r5: task do_install: Started
+NOTE: package pseudo-native-1.2-r5: task do_install: Succeeded
+NOTE: Running task 63 of 63 (ID: 3, virtual:native:/media/OE/poky/meta/recipes-devtools/pseudo/pseudo_1.2.bb, do_populate_sysroot)
+NOTE: package pseudo-native-1.2-r5: task do_populate_sysroot: Started
+NOTE: package pseudo-native-1.2-r5: task do_populate_sysroot: Succeeded
+NOTE: Tasks Summary: Attempted 63 tasks of which 0 didn't need to be rerun and all succeeded.

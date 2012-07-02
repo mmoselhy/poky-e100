@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493940.40 
+sqlite3-native-3.7.10-r1: do_configure: Elapsed time: 8.55 seconds 
+CPU usage: 6.9% 
+EndIOinProgress: 0
+EndReadsComp: 497127
+EndReadsMerged: 14173818
+EndSectRead: 419732
+EndSectWrite: 48950816
+EndTimeIO: 317232
+EndTimeReads: 136866
+EndTimeWrite: 11613478
+EndWTimeIO: 12052963
+EndWritesComp: 717353
+StartIOinProgress: 0
+StartReadsComp: 497127
+StartReadsMerged: 14168626
+StartSectRead: 419027
+StartSectWrite: 48937720
+StartTimeIO: 317120
+StartTimeReads: 136747
+StartTimeWrite: 11613305
+StartWTimeIO: 12052086
+StartWritesComp: 717192
+Status: PASSED 
+Ended: 1332493948.95 

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332496669.10 
+hello-2012.3-r0: do_unpack: Elapsed time: 0.01 seconds 
+CPU usage: 10.0% 
+EndIOinProgress: 0
+EndReadsComp: 508944
+EndReadsMerged: 28654450
+EndSectRead: 1033261
+EndSectWrite: 80255024
+EndTimeIO: 631957
+EndTimeReads: 213775
+EndTimeWrite: 26430883
+EndWTimeIO: 27573376
+EndWritesComp: 1059106
+StartIOinProgress: 0
+StartReadsComp: 508944
+StartReadsMerged: 28654450
+StartSectRead: 1033261
+StartSectWrite: 80255024
+StartTimeIO: 631957
+StartTimeReads: 213775
+StartTimeWrite: 26430883
+StartWTimeIO: 27573376
+StartWritesComp: 1059106
+Status: PASSED 
+Ended: 1332496669.11 

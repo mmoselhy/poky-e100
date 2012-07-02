@@ -1,0 +1,2 @@
+hash-test.c:178:13: warning: 'not_even_foreach' defined but not used [-Wunused-function]
+hash-test.c:203:17: warning: 'remove_even_foreach' defined but not used [-Wunused-function]

@@ -1,0 +1,4 @@
+prefer-cpio-over-pax-for-ustar-archives.patch -p1
+python-libdir.patch -p1
+automake_1.11.2_fix_for_pkglibexec_SCRIPTS.patch -p1
+py-compile-compile-only-optimized-byte-code.patch -p1

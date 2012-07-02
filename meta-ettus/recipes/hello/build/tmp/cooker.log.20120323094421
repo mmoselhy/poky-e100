@@ -1,0 +1,24 @@
+WARNING: Buildfile specified, dependencies will not be handled. If this is not what you want, do not use -b / --buildfile.
+
+OE Build Configuration:
+BB_VERSION        = "1.15.1"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.1+snapshot-20120323"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        = "master:224ff370b4636cdd33c47c1e6341ef43a67e0227"
+meta-ettus        = "master:5a6a642f6707dc42a5210dbbf01d2bdfd869d4b0"
+
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 1 of 12 (ID: 4, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_fetch)
+NOTE: package hello-2012.3-r0: task do_fetch: Started
+ERROR: Function failed: Fetcher failure for URL: 'file://helloworld.c'. Unable to fetch URL from any source.
+NOTE: package hello-2012.3-r0: task do_fetch: Failed
+ERROR: Task 4 (/media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_fetch) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1 tasks of which 0 didn't need to be rerun and 1 failed.

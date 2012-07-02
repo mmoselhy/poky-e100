@@ -1,0 +1,117 @@
+#!/bin/sh -e
+export prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"
+export STRIP="strip"
+export localstatedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var"
+export USER="mmoselhy"
+export libexecdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec"
+export datadir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share"
+export BUILD_CXX="ccache g++"
+export sysconfdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc"
+export LD="ld"
+export LDFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export bindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+export TARGET_CXXFLAGS="-O2 -pipe -g -feliminate-unused-debug-types -fpermissive"
+export MAKE="make"
+export includedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CC="ccache gcc"
+export BUILD_LDFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+unset TARGET_ARCH
+export CCACHE_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/ccache/x86_64-linux/libtool-native"
+export BUILD_LD="ld"
+export oldincludedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CCLD="gcc"
+export BUILD_CPP="cpp"
+export BUILD_CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export docdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc"
+export infodir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info"
+export base_prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux"
+export CC="ccache gcc"
+export LOGNAME="mmoselhy"
+export TERM="xterm"
+export CPPFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export RANLIB="ranlib"
+export base_sbindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin"
+export CXX="ccache g++"
+export PKG_CONFIG_PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/pkgconfig"
+export AS="as"
+export AR="ar"
+unset lt_cv_sys_lib_dlsearch_path_spec
+export BUILD_CPPFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export CPP="gcc  -E"
+export mandir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man"
+export BUILD_CXXFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -fpermissive"
+export OBJCOPY="objcopy"
+export servicedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/srv"
+export HOME="/home/mmoselhy"
+export PATCH_GET="0"
+export exec_prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export PKG_CONFIG_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+export CCLD="ccache gcc"
+export LC_ALL="C"
+export base_libdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib"
+export PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/i586-linux:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux//bin:/media/OE/poky/scripts/native-intercept:/media/OE/poky/bitbake/bin/:/media/OE/poky/scripts:/media/OE/poky/bitbake/bin/:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mmoselhy/.local/bin:/home/mmoselhy/bin:/media/OE/poky/scripts"
+export TARGET_CFLAGS="-O2 -pipe -g -feliminate-unused-debug-types"
+export base_bindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/bin"
+export PKG_CONFIG_LIBDIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+unset MACHINE
+export sbindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin"
+export CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export BUILD_AR="ar"
+export BUILD_AS="as"
+export sharedstatedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com"
+export OBJDUMP="objdump"
+unset DISTRO
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib"
+export PSEUDO_DISABLED="1"
+export BUILD_F77="ccache g77"
+export SHELL="/bin/bash"
+export CXXFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export NM="nm"
+export F77="ccache g77"
+export BUILD_STRIP="strip"
+do_compile() {
+	# Sometimes this file doesn't get rebuilt, force the issue
+	rm -f /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/libtool-2.4.2/libltdl/config/ltmain.sh
+	make libltdl/config/ltmain.sh
+	base_do_compile
+
+}
+
+base_do_compile() {
+	if [ -e Makefile -o -e makefile ]; then
+		oe_runmake || die "make failed"
+	else
+		bbnote "nothing to compile"
+	fi
+
+}
+
+die() {
+	bbfatal "$*"
+
+}
+
+oe_runmake() {
+	if [ x"$MAKE" = x ]; then MAKE=make; fi
+	bbnote make ${PARALLEL_MAKE}  "$@"
+	make ${PARALLEL_MAKE}  "$@" || die "oe_runmake failed"
+
+}
+
+bbnote() {
+	echo "NOTE: $*"
+
+}
+
+bbfatal() {
+	echo "ERROR: $*"
+	exit 1
+
+}
+
+cd /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/libtool-native-2.4.2-r2.0/libtool-2.4.2
+do_compile

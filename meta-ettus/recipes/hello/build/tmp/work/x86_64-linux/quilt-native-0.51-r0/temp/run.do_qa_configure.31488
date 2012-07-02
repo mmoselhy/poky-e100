@@ -1,0 +1,40 @@
+
+def do_qa_configure(d):
+    configs = []
+    workdir = d.getVar('WORKDIR', True)
+    bb.note("Checking autotools environment for common misconfiguration")
+    for root, dirs, files in os.walk(workdir):
+        statement = "grep -e 'CROSS COMPILE Badness:' -e 'is unsafe for cross-compilation' %s > /dev/null" % \
+                    os.path.join(root,"config.log")
+        if "config.log" in files:
+            if os.system(statement) == 0:
+                bb.fatal("""This autoconf log indicates errors, it looked at host include and/or library paths while determining system capabilities.
+Rerun configure task after fixing this. The path was '%s'""" % root)
+
+        if "configure.ac" in files:
+            configs.append(os.path.join(root,"configure.ac"))
+        if "configure.in" in files:
+            configs.append(os.path.join(root, "configure.in"))
+
+    cnf = d.getVar('EXTRA_OECONF', True) or ""
+    if "gettext" not in d.getVar('P', True) and "gcc-runtime" not in d.getVar('P', True) and "--disable-nls" not in cnf:
+       ml = d.getVar("MLPREFIX", True) or ""
+       if bb.data.inherits_class('native', d) or bb.data.inherits_class('cross', d) or bb.data.inherits_class('crosssdk', d) or bb.data.inherits_class('nativesdk', d):
+          gt = "gettext-native"
+       elif bb.data.inherits_class('cross-canadian', d):
+          gt = "gettext-nativesdk"
+       else:
+          gt = "virtual/" + ml + "gettext"
+       deps = bb.utils.explode_deps(d.getVar('DEPENDS', True) or "")
+       if gt not in deps:
+          for config in configs:
+              gnu = "grep \"^[[:space:]]*AM_GNU_GETTEXT\" %s >/dev/null" % config
+              if os.system(gnu) == 0:
+                 bb.fatal("""%s required but not in DEPENDS for file %s.
+Missing inherit gettext?""" % (gt, config))
+
+    if not package_qa_check_license(workdir, d):
+        bb.fatal("Licensing Error: LIC_FILES_CHKSUM does not match, please fix")
+
+
+do_qa_configure(d)

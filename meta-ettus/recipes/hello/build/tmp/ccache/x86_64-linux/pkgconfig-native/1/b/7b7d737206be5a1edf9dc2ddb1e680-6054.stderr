@@ -1,0 +1,2 @@
+conftest.c: In function 'main':
+conftest.c:31:6: warning: unused variable 'dir' [-Wunused-variable]

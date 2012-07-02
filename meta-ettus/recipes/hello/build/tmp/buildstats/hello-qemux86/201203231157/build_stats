@@ -1,0 +1,75 @@
+Host Info: Linux mmoselhy-lptp.egc.mentorg.com 3.2.10-3.fc16.x86_64 #1 SMP Thu Mar 15 19:39:46 UTC 2012 x86_64 x86_64 
+Build Started: 1332496629.78 
+Failed at: hello-2012.3-r0 at task: do_fetch 
+Elapsed time: 0.27 seconds 
+CPU usage: 5.1% 
+EndIOinProgress: 0
+EndReadsComp: 508944
+EndReadsMerged: 28654450
+EndSectRead: 1033261
+EndSectWrite: 80252344
+EndTimeIO: 631891
+EndTimeReads: 213670
+EndTimeWrite: 26430677
+EndWTimeIO: 27573170
+EndWritesComp: 1058920
+StartIOinProgress: 0
+StartReadsComp: 508944
+StartReadsMerged: 28654450
+StartSectRead: 1033261
+StartSectWrite: 80252344
+StartTimeIO: 631891
+StartTimeReads: 213670
+StartTimeWrite: 26430677
+StartWTimeIO: 27573170
+StartWritesComp: 1058920
+Host Info: Linux mmoselhy-lptp.egc.mentorg.com 3.2.10-3.fc16.x86_64 #1 SMP Thu Mar 15 19:39:46 UTC 2012 x86_64 x86_64 
+Build Started: 1332496640.59 
+Failed at: hello-2012.3-r0 at task: do_fetch 
+Elapsed time: 0.27 seconds 
+CPU usage: 4.6% 
+EndIOinProgress: 0
+EndReadsComp: 508944
+EndReadsMerged: 28654450
+EndSectRead: 1033261
+EndSectWrite: 80252992
+EndTimeIO: 631907
+EndTimeReads: 213686
+EndTimeWrite: 26430695
+EndWTimeIO: 27573188
+EndWritesComp: 1058985
+StartIOinProgress: 0
+StartReadsComp: 508944
+StartReadsMerged: 28654450
+StartSectRead: 1033261
+StartSectWrite: 80252992
+StartTimeIO: 631907
+StartTimeReads: 213686
+StartTimeWrite: 26430695
+StartWTimeIO: 27573188
+StartWritesComp: 1058985
+Host Info: Linux mmoselhy-lptp.egc.mentorg.com 3.2.10-3.fc16.x86_64 #1 SMP Thu Mar 15 19:39:46 UTC 2012 x86_64 x86_64 
+Build Started: 1332496668.79 
+Failed at: hello-2012.3-r0 at task: do_compile 
+Elapsed time: 0.67 seconds 
+CPU usage: 6.6% 
+EndIOinProgress: 0
+EndReadsComp: 508944
+EndReadsMerged: 28654530
+EndSectRead: 1033266
+EndSectWrite: 80255024
+EndTimeIO: 631962
+EndTimeReads: 213775
+EndTimeWrite: 26430883
+EndWTimeIO: 27573381
+EndWritesComp: 1059106
+StartIOinProgress: 0
+StartReadsComp: 508944
+StartReadsMerged: 28654450
+StartSectRead: 1033261
+StartSectWrite: 80255024
+StartTimeIO: 631957
+StartTimeReads: 213775
+StartTimeWrite: 26430883
+StartWTimeIO: 27573376
+StartWritesComp: 1059106

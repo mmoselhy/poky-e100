@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493920.28 
+pkgconfig-native-0.25-r3: do_install: Elapsed time: 0.14 seconds 
+CPU usage: 6.1% 
+EndIOinProgress: 0
+EndReadsComp: 497127
+EndReadsMerged: 14135770
+EndSectRead: 411312
+EndSectWrite: 48928624
+EndTimeIO: 316475
+EndTimeReads: 136509
+EndTimeWrite: 11612418
+EndWTimeIO: 12043485
+EndWritesComp: 716530
+StartIOinProgress: 0
+StartReadsComp: 497127
+StartReadsMerged: 14135770
+StartSectRead: 411312
+StartSectWrite: 48928624
+StartTimeIO: 316475
+StartTimeReads: 136509
+StartTimeWrite: 11612418
+StartWTimeIO: 12043485
+StartWritesComp: 716530
+Status: PASSED 
+Ended: 1332493920.42 

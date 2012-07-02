@@ -1,0 +1,31 @@
+In file included from testgthread.c:6:0:
+../testglib.c: In function 'g_node_test':
+../testglib.c:86:3: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c:90:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:98:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:108:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:109:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:110:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:111:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:112:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:113:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:114:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:115:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:116:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:117:3: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c:118:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:123:7: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:127:5: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c:182:3: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c:183:3: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c: In function 'testglib_main':
+../testglib.c:359:3: warning: reading through null pointer (argument 5) [-Wformat]
+In file included from testgthread.c:6:0:
+../testglib.c:361:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:363:3: warning: reading through null pointer (argument 5) [-Wformat]
+../testglib.c:366:3: warning: reading through null pointer (argument 5) [-Wformat]

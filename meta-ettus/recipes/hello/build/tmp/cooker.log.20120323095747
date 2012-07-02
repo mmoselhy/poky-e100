@@ -1,0 +1,36 @@
+WARNING: Buildfile specified, dependencies will not be handled. If this is not what you want, do not use -b / --buildfile.
+
+OE Build Configuration:
+BB_VERSION        = "1.15.1"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.1+snapshot-20120323"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        = "master:224ff370b4636cdd33c47c1e6341ef43a67e0227"
+meta-ettus        = "master:5a6a642f6707dc42a5210dbbf01d2bdfd869d4b0"
+
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 1 of 12 (ID: 4, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_fetch)
+NOTE: package hello-2012.3-r0: task do_fetch: Started
+NOTE: package hello-2012.3-r0: task do_fetch: Succeeded
+NOTE: Running task 2 of 12 (ID: 0, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_unpack)
+NOTE: package hello-2012.3-r0: task do_unpack: Started
+NOTE: package hello-2012.3-r0: task do_unpack: Succeeded
+NOTE: Running task 3 of 12 (ID: 1, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_patch)
+NOTE: package hello-2012.3-r0: task do_patch: Started
+NOTE: package hello-2012.3-r0: task do_patch: Succeeded
+NOTE: Running task 4 of 12 (ID: 6, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_configure)
+NOTE: package hello-2012.3-r0: task do_configure: Started
+NOTE: package hello-2012.3-r0: task do_configure: Succeeded
+NOTE: Running task 5 of 12 (ID: 7, /media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_compile)
+NOTE: package hello-2012.3-r0: task do_compile: Started
+ERROR: Function failed: do_compile (see /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/i586-poky-linux/hello-2012.3-r0/temp/log.do_compile.11669 for further information)
+NOTE: package hello-2012.3-r0: task do_compile: Failed
+ERROR: Task 7 (/media/OE/poky/meta-ettus/recipes/hello/hello_2012.3.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 5 tasks of which 0 didn't need to be rerun and 1 failed.

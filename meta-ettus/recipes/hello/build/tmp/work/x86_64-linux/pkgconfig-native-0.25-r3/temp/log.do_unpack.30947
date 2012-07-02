@@ -1,0 +1,4 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/pkg-config-0.25.tar.gz to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.25/autofoo.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.25/glibconfig-sysdefs.h to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pkgconfig/pkgconfig/disable-legacy.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/

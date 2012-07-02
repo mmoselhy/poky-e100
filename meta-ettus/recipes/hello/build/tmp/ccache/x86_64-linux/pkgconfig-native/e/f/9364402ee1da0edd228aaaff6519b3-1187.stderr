@@ -1,0 +1,2 @@
+conftest.c: In function 'main':
+conftest.c:66:10: warning: 't' is used uninitialized in this function [-Wuninitialized]

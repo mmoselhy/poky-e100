@@ -1,0 +1,109 @@
+NOTE: make DESTDIR=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image install
+WARNING: version string 2.68 is out of date;
+run 'make _version' to fix it
+make  install-recursive
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'
+Making install in bin
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/bin'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/bin'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+ /usr/bin/install -c autom4te autoconf autoheader autoreconf ifnames autoscan autoupdate '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/bin'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/bin'
+Making install in .
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf"
+ /usr/bin/install -c -m 644 ./INSTALL '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'
+Making install in lib
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+Making install in Autom4te
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/Autom4te'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/Autom4te'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/Autom4te" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/Autom4te"
+ /usr/bin/install -c -m 644 C4che.pm ChannelDefs.pm Channels.pm Configure_ac.pm FileUtils.pm General.pm Request.pm Struct.pm XFile.pm '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/Autom4te'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/Autom4te'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/Autom4te'
+Making install in m4sugar
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/m4sugar'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/m4sugar'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar"
+ /usr/bin/install -c -m 644 m4sugar.m4 foreach.m4 m4sh.m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar"
+ /usr/bin/install -c -m 644 version.m4 m4sugar.m4f m4sh.m4f '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/m4sugar'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/m4sugar'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/m4sugar'
+Making install in autoconf
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoconf'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoconf'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf"
+ /usr/bin/install -c -m 644 autoconf.m4 general.m4 status.m4 oldnames.m4 specific.m4 autoheader.m4 autoupdate.m4 autotest.m4 autoscan.m4 lang.m4 c.m4 erlang.m4 fortran.m4 functions.m4 headers.m4 types.m4 libs.m4 programs.m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf"
+ /usr/bin/install -c -m 644 autoconf.m4f '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoconf'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoconf'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoconf'
+Making install in autotest
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autotest'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autotest'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest"
+ /usr/bin/install -c -m 644 autotest.m4 general.m4 specific.m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest"
+ /usr/bin/install -c -m 644 autotest.m4f '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autotest'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autotest'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autotest'
+Making install in autoscan
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoscan'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoscan'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoscan" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoscan"
+ /usr/bin/install -c -m 644 autoscan.list '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf/autoscan'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoscan'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/autoscan'
+Making install in emacs
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/emacs'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/emacs'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/emacs'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib/emacs'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf"
+ /usr/bin/install -c -m 644 autom4te.cfg '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/autoconf'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/lib'
+Making install in doc
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/doc'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info"
+ /usr/bin/install -c -m 644 ./autoconf.info ./standards.info '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info'
+ install-info --info-dir='/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info' '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info/autoconf.info'
+ install-info --info-dir='/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info' '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info/standards.info'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/doc'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/doc'
+Making install in tests
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/tests'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/tests'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/tests'
+Making install in man
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/man'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/man'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1"
+ /usr/bin/install -c -m 644 ./autoconf.1 ./autoheader.1 ./autom4te.1 ./autoreconf.1 ./autoscan.1 ./autoupdate.1 ./ifnames.1 ./config.guess.1 ./config.sub.1 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/man'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68/man'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/autoconf-2.68'

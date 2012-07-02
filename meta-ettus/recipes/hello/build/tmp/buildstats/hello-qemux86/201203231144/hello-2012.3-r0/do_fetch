@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332495862.19 
+hello-2012.3-r0: do_fetch: Elapsed time: 0.01 seconds 
+CPU usage: 12.5% 
+EndIOinProgress: 0
+EndReadsComp: 508856
+EndReadsMerged: 28042370
+EndSectRead: 1010980
+EndSectWrite: 78511512
+EndTimeIO: 619560
+EndTimeReads: 203262
+EndTimeWrite: 25987456
+EndWTimeIO: 27106655
+EndWritesComp: 1005501
+StartIOinProgress: 0
+StartReadsComp: 508856
+StartReadsMerged: 28042362
+StartSectRead: 1010980
+StartSectWrite: 78511512
+StartTimeIO: 619560
+StartTimeReads: 203262
+StartTimeWrite: 25987456
+StartWTimeIO: 27106655
+StartWritesComp: 1005501
+Status: FAILED 
+Ended: 1332495862.20 

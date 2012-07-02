@@ -1,0 +1,2 @@
+ERROR: Function failed: do_compile (see /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/i586-poky-linux/hello-2012.3-r0/temp/log.do_compile.16269 for further information)
+ccache: FATAL: Could not find compiler "i586-poky-linux-gcc" in PATH

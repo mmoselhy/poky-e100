@@ -1,0 +1,2 @@
+gdate.c: In function 'g_date_fill_parse_tokens':
+gdate.c:463:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]

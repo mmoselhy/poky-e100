@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493698.35 
+gnu-config-native-20111111-r1: do_compile: Elapsed time: 0.03 seconds 
+CPU usage: 12.5% 
+EndIOinProgress: 132
+EndReadsComp: 496981
+EndReadsMerged: 9551906
+EndSectRead: 250165
+EndSectWrite: 41752096
+EndTimeIO: 246542
+EndTimeReads: 122796
+EndTimeWrite: 9282910
+EndWTimeIO: 9578278
+EndWritesComp: 686936
+StartIOinProgress: 131
+StartReadsComp: 496981
+StartReadsMerged: 9551906
+StartSectRead: 250165
+StartSectWrite: 41740464
+StartTimeIO: 246510
+StartTimeReads: 122783
+StartTimeWrite: 9281338
+StartWTimeIO: 9574058
+StartWritesComp: 686670
+Status: PASSED 
+Ended: 1332493698.38 

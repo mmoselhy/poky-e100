@@ -1,0 +1,220 @@
+The files in this directory are partially machine-generated, and are
+all covered by the COPYRIGHT file in this directory.
+
+The set of functions covered here may seem surprising.  For instance,
+obviously, fopen(3) simply calls the underlying open(2) syscall.  But...
+There is a problem.  In a few places in glibc, the syscalls are inlined
+such that there is no actual call to the C function open(2), just a raw
+call.  So there are a couple of functions (fopen, freopen) which are
+wrapped with intent only to detect the possible creation of files.
+
+Many of these functions are closely related.  Some programs may have
+calls to openat(), while others have calls to __openat_2().  To reduce
+code duplication, a number of functions are implemented purely as calls
+to other functions.
+
+When a *at() function exists, the regular function is implemented
+as *at() with AT_FDCWD as the directory fd (see the dummy #define of
+this in pseudo_client.h, used for systems which lack these.)  On systems
+where AT_NOFOLLOW_SYMLINKS is not defined, the underlying *at() functions
+don't exist, so we provide a bare implementation which works only when
+the fd is AT_FDCWD...
+
+The creat64 and open64 families are equivalent to the plain versions with
+O_LARGEFILE in mode bits.  (Again, there's a suitable dummy #define
+in pseudo_client.h.)  By contrast, the stat64 functions actually do have
+some difference -- the structure they manipulate is not the same.
+
+The following table shows which functions are merely wrappers around
+other functions:
+
+	canonicalize_file_name:	realpath
+	chmod:			fchmodat
+	chown:			fchownat
+	creat64:		openat
+	creat:			openat
+	__fxstatat:		__fxstatat64
+	__fxstat:		__fxstat64
+	get_current_dir_name:	getcwd
+	getwd:			getcwd
+	__lxstat64:		__fxstatat64
+	__lxstat:		__fxstatat
+	mkdir:			mkdirat
+	mkfifoat:		__xmknodat
+	mkfifo:			mkfifoat
+	open64:			openat
+	__openat_2:		openat
+	__openat64_2:		openat
+	openat64:		openat
+	open:			openat
+	remove:			unlink or rmdir
+	rename:			renameat
+	symlink:		symlinkat
+	unlink:			unlinkat
+	__xmknod:		__xmknodat
+	__xstat64:		__fxstatat64
+	__xstat:		__fxstatat
+
+The following functions are full implementations:
+
+	chdir
+	fchdir
+	fchmod
+	fchmodat
+	fchown
+	fchownat
+	__fxstat64
+	__fxstatat64
+	getcwd
+	lchown
+	mkdirat
+	openat
+	rmdir
+	symlinkat
+	unlinkat
+	__xmknodat
+
+The following functions provide only partial implementations, to trap special
+cases, to track internal data structures (for instance, close() is tracked so
+that the path to a file descriptor can be dropped when the file descriptor
+is closed), or to handle functions which may not use the underlying syscall
+wrappers:
+
+	close
+	dup
+	dup2
+	execl* (no guts implementations; see pseudo_wrappers.c)
+	execv
+	execve
+	execvp
+	fclose
+	fopen
+	fopen64
+	freopen
+	freopen64
+	mkstemp
+	mkstemp64
+	fcntl
+	fork
+	link
+
+The following functions don't have any direct database interactions,
+but are used to simulate the permissions system:
+
+	getegid
+	getuid
+	setgid
+	setreuid
+	geteuid
+	setegid
+	setgroups
+	setuid
+	getgid
+	seteuid
+	setregid
+	getresgid
+	setfsgid
+	setresgid
+	getresuid
+	setfsuid
+	setresuid
+
+The following functions are present only to allow filename mangling
+for chroot(2) implementation.  Most of them have no logic beyond
+calling the underlying routine.
+
+	access
+	acct
+	chroot
+	eaccess
+	euidaccess
+	fts_open
+	ftw64
+	ftw
+	glob64
+	glob
+	lutimes
+	mkdtemp
+	mktemp
+	nftw64
+	nftw
+	opendir
+	pathconf
+	readlinkat
+	readlink
+	realpath
+	scandir64
+	scandir
+	truncate64
+	truncate
+	utime
+	utimes
+
+The following functions are unimplemented.  renameat could be done now (it
+would have been hard previously due to file name mangling issues), but
+since it's never come up, we haven't done it.  The tempnam() functions are
+fairly hard to get right, and perhaps more imporantly, extremely
+dangerous.  Since there's no evidence that they're in use anymore, I've
+dummied them out:
+
+	renameat
+	tempnam
+	tmpnam
+
+The following functions are partially emulated in order to provide for
+emulation of various getpw*() and getgr*() functions.  No handling is
+provided for putpw*() or putgr*().  Nearly everything is ultimately
+implemented in terms of fgetpwent_r() and fgetgrent_r(), which are
+GNU extensions corresponding to fgetpwent() and fgetgrent(), allowing
+pseudo to read password information from an arbitrary stream; the
+setpwent() and setgrent() functions are modified to pick /etc/* from
+the pseudo_chroot path, if one is set, or from PSEUDO_PASSWD, if that
+is set, or else the system /etc/* files.
+
+	endgrent
+	endpwent
+	getgrent
+	getgrent_r
+	getgrgid
+	getgrgid_r
+	getgrnam
+	getgrnam_r
+	getgrouplist
+	getgroups
+	getpw
+	getpwent
+	getpwent_r
+	getpwnam
+	getpwnam_r
+	getpwuid
+	getpwuid_r
+	lckpwdf
+	setgrent
+	setgroups
+	setpwent
+	ulckpwdf
+
+The implementation of getgroups() is inauthentic in that it always checks
+the group file when called, rather than checking the group file once
+"at login" (whatever that means in our context) and returning that saved
+status.  We don't think this matters.  setgroups() just fails; this will
+be corrected if we come up with a compelling reason to do so.
+
+The following functions set errnot to ENOTSUP and return -1; this is
+needed because we don't actually track or manage extended attributes, but
+a few programs attempt to use *setxattr() to set regular permissions,
+and only use a regular chmod if the *setxattr() call returns -1 and
+sets errno to ENOTSUP.
+
+	fgetxattr
+	flistxattr
+	fremovexattr
+	fsetxattr
+	getxattr
+	lgetxattr
+	listxattr
+	llistxattr
+	lremovexattr
+	lsetxattr
+	removexattr
+	setxattr

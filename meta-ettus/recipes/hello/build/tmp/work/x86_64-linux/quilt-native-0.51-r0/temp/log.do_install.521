@@ -1,0 +1,32 @@
+NOTE: make BUILD_ROOT=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image install
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin
+/usr/bin/install -c -m 755 bin/quilt bin/guards /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt
+/usr/bin/install -c -m 755 quilt/grep quilt/add quilt/upgrade quilt/patches quilt/refresh quilt/files quilt/revert quilt/pop quilt/header quilt/remove quilt/annotate quilt/graph quilt/edit quilt/mail quilt/diff quilt/delete quilt/top quilt/new quilt/import quilt/previous quilt/applied quilt/fold quilt/fork quilt/snapshot quilt/next quilt/push quilt/series quilt/setup quilt/rename quilt/unapplied /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/scripts
+/usr/bin/install -c -m 755 quilt/scripts/inspect quilt/scripts/dependency-graph quilt/scripts/edmail quilt/scripts/remove-trailing-ws		\
+	   /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/scripts
+/usr/bin/install -c -m 644 quilt/scripts/patchfns			\
+	   /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/scripts
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/quilt
+/usr/bin/install -c -m 755 lib/backup-files /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/quilt/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/quilt/
+/usr/bin/install -c -m 644 doc/README					\
+	   /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/quilt/
+/usr/bin/install -c -m 644 doc/quilt.pdf doc/README.MAIL			\
+	   /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/quilt/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1
+/usr/bin/install -c -m 644 doc/quilt.1 bin/guards.1 /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc/bash_completion.d
+/usr/bin/install -c -m 644 bash_completion				\
+	   /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc/bash_completion.d/quilt
+/usr/bin/install -c -m 644 quilt.quiltrc /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc/
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/emacs/site-lisp/
+/usr/bin/install -c -m 644 lib/quilt.el /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/emacs/site-lisp/
+rm -rf /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/compat
+/usr/bin/install -c -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/compat
+ln -sf /usr/bin/gawk	\
+       /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/compat/awk
+ln -sf /usr/sbin/sendmail	\
+       /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/quilt/compat/sendmail

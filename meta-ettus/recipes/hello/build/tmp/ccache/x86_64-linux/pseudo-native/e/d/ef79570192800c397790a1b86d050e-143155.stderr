@@ -1,0 +1,2 @@
+pseudo_server.c: In function 'pseudo_server_loop':
+pseudo_server.c:440:10: warning: variable 'op' set but not used [-Wunused-but-set-variable]

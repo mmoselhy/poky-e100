@@ -1,0 +1,44 @@
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.25.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+NOTE: fetch http://pkgconfig.freedesktop.org/releases/pkg-config-0.25.tar.gz
+DEBUG: executing /usr/bin/env wget -t 5 -nv --passive-ftp --no-check-certificate -P /media/OE/poky/meta-ettus/recipes/hello/build/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.25.tar.gz'
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 5 -nv --passive-ftp --no-check-certificate -P /media/OE/poky/meta-ettus/recipes/hello/build/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.25.tar.gz'
+DEBUG: Running export HOME="/home/mmoselhy"; export SSH_AUTH_SOCK="/tmp/keyring-X2vmYv/ssh"; export GIT_CONFIG="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc/gitconfig"; export PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/i586-linux:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux//bin:/media/OE/poky/scripts/native-intercept:/media/OE/poky/bitbake/bin/:/media/OE/poky/scripts:/media/OE/poky/bitbake/bin/:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mmoselhy/.local/bin:/home/mmoselhy/bin:/media/OE/poky/scripts"; /usr/bin/env wget -t 5 -nv --passive-ftp --no-check-certificate -P /media/OE/poky/meta-ettus/recipes/hello/build/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.25.tar.gz'
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autofoo.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'glibconfig-sysdefs.h', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'disable-legacy.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream

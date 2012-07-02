@@ -1,0 +1,237 @@
+NOTE: make DESTDIR=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image install
+Making install in lib
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+Making install in Automake
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+cd ../.. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../.. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+Making install in .
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+cd ../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+cd ../.. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../.. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake"
+ /usr/bin/install -c -m 644 ChannelDefs.pm Channels.pm Condition.pm Configure_ac.pm DisjConditions.pm FileUtils.pm General.pm Item.pm ItemDef.pm Location.pm Options.pm Rule.pm RuleDef.pm Struct.pm Variable.pm VarDef.pm Version.pm XFile.pm Wrap.pm '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake"
+ /usr/bin/install -c -m 644 Config.pm '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/Automake'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+Making install in tests
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake/tests'
+cd ../../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake/tests'
+cd ../../.. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../../.. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake/tests'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake/tests'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/Automake'
+Making install in am
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/am'
+cd ../.. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../.. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/am'
+cd ../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd ../.. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/am" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/am"
+ /usr/bin/install -c -m 644 ansi2knr.am check.am check2.am clean-hdr.am clean.am compile.am configure.am data.am dejagnu.am depend.am depend2.am distdir.am footer.am header-vars.am header.am install.am inst-vars.am java.am lang-compile.am lex.am library.am libs.am libtool.am lisp.am ltlib.am ltlibrary.am mans-vars.am mans.am multilib.am program.am progs.am python.am remake-hdr.am scripts.am subdirs.am tags.am texi-vers.am texibuild.am texinfos.am vala.am '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/am'
+ /usr/bin/install -c -m 644 yacc.am '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/am'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/am'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib/am'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+cd .. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11"
+ /usr/bin/install -c -m 644 COPYING INSTALL texinfo.tex ansi2knr.c ansi2knr.1 config-ml.in '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11"
+ /usr/bin/install -c -m 644 config.guess config.sub install-sh mdate-sh missing mkinstalldirs elisp-comp ylwrap acinstall depcomp compile py-compile symlink-tree ar-lib '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11'
+make  install-data-hook
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+cd .. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/config.guess
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/config.sub
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/install-sh
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/mdate-sh
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/missing
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/mkinstalldirs
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/elisp-comp
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/ylwrap
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/acinstall
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/depcomp
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/compile
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/py-compile
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/symlink-tree
+ chmod +x /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/automake-1.11/ar-lib
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/lib'
+Making install in .
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+ /usr/bin/install -c automake aclocal '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin'
+make  install-exec-hook
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+ ln /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/automake /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/automake-1.11
+ ln /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/aclocal /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/aclocal-1.11
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+Making install in doc
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/doc'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/doc'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/automake" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/automake"
+ /usr/bin/install -c -m 644 ./amhello-1.0.tar.gz '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/automake'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info"
+ /usr/bin/install -c -m 644 ./automake.info ./automake.info-1 ./automake.info-2 ./automake.info-3 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info'
+ install-info --info-dir='/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info' '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info/automake.info'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1"
+ /usr/bin/install -c -m 644 ./aclocal.1 ./automake.1 ./aclocal-1.11.1 ./automake-1.11.1 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/doc'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/doc'
+Making install in m4
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/m4'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/m4'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11"
+ /usr/bin/install -c -m 644 ../m4/amversion.m4 ar-lib.m4 as.m4 auxdir.m4 ccstdc.m4 cond.m4 cond-if.m4 depend.m4 depout.m4 dmalloc.m4 gcj.m4 header.m4 init.m4 install-sh.m4 lead-dot.m4 lex.m4 lispdir.m4 maintainer.m4 make.m4 minuso.m4 missing.m4 mkdirp.m4 multi.m4 obsol-gt.m4 obsol-lt.m4 obsolete.m4 options.m4 protos.m4 python.m4 regex.m4 runlog.m4 sanity.m4 silent.m4 strip.m4 substnot.m4 tar.m4 upc.m4 vala.m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal"
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/m4'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/m4'
+Making install in tests
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/tests'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/tests'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+cd .. && make  am--refresh
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/tests'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/tests'

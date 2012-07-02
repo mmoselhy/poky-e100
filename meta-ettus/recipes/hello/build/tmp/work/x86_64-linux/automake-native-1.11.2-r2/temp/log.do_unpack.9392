@@ -1,0 +1,5 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/automake-1.11.2.tar.bz2 to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/automake/automake/prefer-cpio-over-pax-for-ustar-archives.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/automake/automake/python-libdir.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/automake/automake/automake_1.11.2_fix_for_pkglibexec_SCRIPTS.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/automake/automake/py-compile-compile-only-optimized-byte-code.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/

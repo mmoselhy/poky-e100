@@ -1,0 +1,10 @@
+
+def sstate_task_postfunc(d):
+    shared_state = sstate_state_fromvars(d)
+    sstate_install(shared_state, d)
+    for intercept in shared_state['interceptfuncs']:
+        bb.build.exec_func(intercept, d)
+    sstate_package(shared_state, d)
+
+
+sstate_task_postfunc(d)

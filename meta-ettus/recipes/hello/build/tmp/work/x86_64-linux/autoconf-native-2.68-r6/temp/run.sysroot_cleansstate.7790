@@ -1,0 +1,7 @@
+
+def sysroot_cleansstate(d):
+     ss = sstate_state_fromvars(d, "populate_sysroot")
+     sstate_clean(ss, d)
+
+
+sysroot_cleansstate(d)

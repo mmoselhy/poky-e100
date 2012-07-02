@@ -1,0 +1,56 @@
+
+def patch_do_patch(d):
+	import oe.patch
+
+	patchsetmap = {
+		"patch": oe.patch.PatchTree,
+		"quilt": oe.patch.QuiltTree,
+		"git": oe.patch.GitApplyTree,
+	}
+
+	cls = patchsetmap[d.getVar('PATCHTOOL', True) or 'quilt']
+
+	resolvermap = {
+		"noop": oe.patch.NOOPResolver,
+		"user": oe.patch.UserResolver,
+	}
+
+	rcls = resolvermap[d.getVar('PATCHRESOLVE', True) or 'user']
+
+	classes = {}
+
+	s = d.getVar('S', True)
+
+	path = os.getenv('PATH')
+	os.putenv('PATH', d.getVar('PATH', True))
+
+	for patch in src_patches(d):
+		_, _, local, _, _, parm = bb.decodeurl(patch)
+
+		if "patchdir" in parm:
+			patchdir = parm["patchdir"]
+			if not os.path.isabs(patchdir):
+				patchdir = os.path.join(s, patchdir)
+		else:
+			patchdir = s
+
+		if not patchdir in classes:
+			patchset = cls(patchdir, d)
+			resolver = rcls(patchset, oe_terminal)
+			classes[patchdir] = (patchset, resolver)
+			patchset.Clean()
+		else:
+			patchset, resolver = classes[patchdir]
+
+		bb.note("Applying patch '%s' (%s)" % (parm['patchname'], oe.path.format_display(local, d)))
+		try:
+			patchset.Import({"file":local, "strippath": parm['striplevel']}, True)
+		except Exception as exc:
+			bb.fatal(str(exc))
+		try:
+			resolver.Resolve()
+		except bb.BBHandledException as e:
+			bb.fatal(str(e))
+
+
+patch_do_patch(d)

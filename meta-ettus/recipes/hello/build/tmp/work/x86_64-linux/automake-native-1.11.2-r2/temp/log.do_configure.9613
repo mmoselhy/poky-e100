@@ -1,0 +1,34 @@
+NOTE: Checking autotools environment for common misconfiguration
+NOTE: automake-native: md5 checksum matched for file://COPYING;md5=751419260aa954499f7abaabaa882bbe
+NOTE: Running /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/automake-native-1.11.2-r2/automake-1.11.2/configure  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		    
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-dependency-tracking
+checking build system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for perl... /usr/bin/perl
+checking whether /usr/bin/perl supports ithreads... yes
+checking for tex... tex
+checking whether autoconf is installed... yes
+checking whether autoconf works... yes
+checking whether autoconf is recent enough... yes
+checking whether ln works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking whether /bin/sh has working 'set -e' with exit trap... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Automake/Makefile
+config.status: creating lib/Automake/tests/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/am/Makefile
+config.status: creating m4/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/defs
+config.status: creating tests/aclocal-1.11
+config.status: creating tests/automake-1.11
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-dependency-tracking

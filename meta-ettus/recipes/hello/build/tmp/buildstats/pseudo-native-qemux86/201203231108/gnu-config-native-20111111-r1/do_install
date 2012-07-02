@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493698.77 
+gnu-config-native-20111111-r1: do_install: Elapsed time: 0.05 seconds 
+CPU usage: 4.8% 
+EndIOinProgress: 136
+EndReadsComp: 496983
+EndReadsMerged: 9552922
+EndSectRead: 250909
+EndSectWrite: 41904616
+EndTimeIO: 246982
+EndTimeReads: 122965
+EndTimeWrite: 9338685
+EndWTimeIO: 9641774
+EndWritesComp: 687098
+StartIOinProgress: 157
+StartReadsComp: 496983
+StartReadsMerged: 9552890
+StartSectRead: 250833
+StartSectWrite: 41884808
+StartTimeIO: 246929
+StartTimeReads: 122944
+StartTimeWrite: 9325915
+StartWTimeIO: 9633988
+StartWritesComp: 687098
+Status: PASSED 
+Ended: 1332493698.82 

@@ -1,0 +1,3 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/gnu-config-yocto-20111111.tgz to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/gnu-config-native-20111111-r1/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config/config-guess-uclibc.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/gnu-config-native-20111111-r1/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/gnu-config/gnu-config/gnu-configize.in to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/gnu-config-native-20111111-r1/

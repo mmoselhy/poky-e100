@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493697.52 
+gnu-config-native-20111111-r1: do_patch: Elapsed time: 0.09 seconds 
+CPU usage: 2.7% 
+EndIOinProgress: 154
+EndReadsComp: 496980
+EndReadsMerged: 9550602
+EndSectRead: 249370
+EndSectWrite: 41488280
+EndTimeIO: 245769
+EndTimeReads: 122283
+EndTimeWrite: 9179161
+EndWTimeIO: 9472039
+EndWritesComp: 682046
+StartIOinProgress: 130
+StartReadsComp: 496980
+StartReadsMerged: 9550586
+StartSectRead: 249213
+StartSectWrite: 41456984
+StartTimeIO: 245676
+StartTimeReads: 122246
+StartTimeWrite: 9167007
+StartWTimeIO: 9458947
+StartWritesComp: 681619
+Status: PASSED 
+Ended: 1332493697.61 

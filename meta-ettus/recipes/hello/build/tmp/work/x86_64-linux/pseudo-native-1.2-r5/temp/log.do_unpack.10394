@@ -1,0 +1,5 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/pseudo-1.2.tar.bz2 to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pseudo-native-1.2-r5/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pseudo/pseudo/oe-config.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pseudo-native-1.2-r5/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pseudo/pseudo/static_sqlite.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pseudo-native-1.2-r5/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pseudo/pseudo/opendir.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pseudo-native-1.2-r5/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/pseudo/pseudo/renameat.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pseudo-native-1.2-r5/

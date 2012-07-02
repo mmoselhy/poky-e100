@@ -1,0 +1,8 @@
+NOTE: Applying patch 'trailingslash.patch' (../../../../meta/recipes-devtools/libtool/libtool/trailingslash.patch)
+NOTE: Applying patch 'prefix-manpage-fix.patch' (../../../../meta/recipes-devtools/libtool/libtool/prefix-manpage-fix.patch)
+NOTE: Applying patch 'rename-with-sysroot.patch' (../../../../meta/recipes-devtools/libtool/libtool/rename-with-sysroot.patch)
+NOTE: Applying patch 'use-sysroot-in-libpath.patch' (../../../../meta/recipes-devtools/libtool/libtool/use-sysroot-in-libpath.patch)
+NOTE: Applying patch 'fix-final-rpath.patch' (../../../../meta/recipes-devtools/libtool/libtool/fix-final-rpath.patch)
+NOTE: Applying patch 'avoid_absolute_paths_for_general_utils.patch' (../../../../meta/recipes-devtools/libtool/libtool/avoid_absolute_paths_for_general_utils.patch)
+NOTE: Applying patch 'fix-rpath.patch' (../../../../meta/recipes-devtools/libtool/libtool/fix-rpath.patch)
+NOTE: Applying patch 'prefix.patch' (../../../../meta/recipes-devtools/libtool/libtool/prefix.patch)

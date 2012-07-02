@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493699.17 
+gnu-config-native-20111111-r1: do_populate_sysroot: Elapsed time: 0.88 seconds 
+CPU usage: 1.1% 
+EndIOinProgress: 144
+EndReadsComp: 496985
+EndReadsMerged: 9553626
+EndSectRead: 252139
+EndSectWrite: 42335288
+EndTimeIO: 248209
+EndTimeReads: 123440
+EndTimeWrite: 9517870
+EndWTimeIO: 9818507
+EndWritesComp: 688979
+StartIOinProgress: 152
+StartReadsComp: 496983
+StartReadsMerged: 9553002
+StartSectRead: 251233
+StartSectWrite: 42032472
+StartTimeIO: 247333
+StartTimeReads: 123101
+StartTimeWrite: 9394350
+StartWTimeIO: 9692068
+StartWritesComp: 687246
+Status: PASSED 
+Ended: 1332493700.05 

@@ -1,0 +1,72 @@
+NOTE: make DESTDIR=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image install
+Making install in glib-1.2.10
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+make  install-recursive
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+Making install in .
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+Making install in gmodule
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+make  install-am
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+make[5]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gmodule'
+Making install in gthread
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gthread'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gthread'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gthread'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/gthread'
+Making install in docs
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/docs'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/docs'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/docs'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/docs'
+Making install in tests
+make[3]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/tests'
+make[4]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/tests'
+make[3]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10/tests'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10'
+Making install in popt
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/popt'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/popt'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/popt'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/popt'
+Making install in check
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/check'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/check'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/check'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/check'
+make[1]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25'
+make[2]: Entering directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+  ./x86_64-linux-libtool   --mode=install /usr/bin/install -c pkg-config '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin'
+x86_64-linux-libtool: install: /usr/bin/install -c pkg-config /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/pkg-config
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/pkg-config" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/pkg-config"
+ /usr/bin/install -c -m 644 pkg-config-guide.html '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc/pkg-config'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal"
+ /usr/bin/install -c -m 644 pkg.m4 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal'
+test -z "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1" || /bin/mkdir -p "/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1"
+ /usr/bin/install -c -m 644 pkg-config.1 '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/image/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man/man1'
+make[2]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25'
+make[1]: Leaving directory `/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25'

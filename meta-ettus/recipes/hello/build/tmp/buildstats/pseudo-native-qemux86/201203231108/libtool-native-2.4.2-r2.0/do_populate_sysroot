@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493858.19 
+libtool-native-2.4.2-r2.0: do_populate_sysroot: Elapsed time: 0.55 seconds 
+CPU usage: 5.9% 
+EndIOinProgress: 139
+EndReadsComp: 497111
+EndReadsMerged: 13762490
+EndSectRead: 327063
+EndSectWrite: 46358944
+EndTimeIO: 296639
+EndTimeReads: 132715
+EndTimeWrite: 10666680
+EndWTimeIO: 11039602
+EndWritesComp: 713315
+StartIOinProgress: 138
+StartReadsComp: 497110
+StartReadsMerged: 13762434
+StartSectRead: 326876
+StartSectWrite: 46158864
+StartTimeIO: 296083
+StartTimeReads: 132502
+StartTimeWrite: 10588860
+StartWTimeIO: 10964043
+StartWritesComp: 713288
+Status: PASSED 
+Ended: 1332493858.75 

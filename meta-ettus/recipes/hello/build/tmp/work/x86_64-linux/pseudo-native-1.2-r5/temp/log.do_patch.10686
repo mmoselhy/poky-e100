@@ -1,0 +1,4 @@
+NOTE: Applying patch 'oe-config.patch' (../../../../meta/recipes-devtools/pseudo/pseudo/oe-config.patch)
+NOTE: Applying patch 'static_sqlite.patch' (../../../../meta/recipes-devtools/pseudo/pseudo/static_sqlite.patch)
+NOTE: Applying patch 'opendir.patch' (../../../../meta/recipes-devtools/pseudo/pseudo/opendir.patch)
+NOTE: Applying patch 'renameat.patch' (../../../../meta/recipes-devtools/pseudo/pseudo/renameat.patch)

@@ -1,0 +1,8 @@
+gstrfuncs.c: In function 'g_strdown':
+gstrfuncs.c:1139:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+gstrfuncs.c: In function 'g_strup':
+gstrfuncs.c:1155:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+gstrfuncs.c: In function 'g_strchug':
+gstrfuncs.c:1314:14: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+gstrfuncs.c:1317:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+/usr/include/string.h:399:15: note: expected 'const char *' but argument is of type 'guchar *'

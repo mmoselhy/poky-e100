@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493688.63 
+quilt-native-0.51-r0: do_unpack: Elapsed time: 0.06 seconds 
+CPU usage: 6.5% 
+EndIOinProgress: 0
+EndReadsComp: 496972
+EndReadsMerged: 8811018
+EndSectRead: 235243
+EndSectWrite: 40788744
+EndTimeIO: 238984
+EndTimeReads: 121373
+EndTimeWrite: 8964595
+EndWTimeIO: 9218900
+EndWritesComp: 674644
+StartIOinProgress: 0
+StartReadsComp: 496972
+StartReadsMerged: 8811002
+StartSectRead: 235240
+StartSectWrite: 40788744
+StartTimeIO: 238981
+StartTimeReads: 121373
+StartTimeWrite: 8964595
+StartWTimeIO: 9218897
+StartWritesComp: 674644
+Status: PASSED 
+Ended: 1332493688.69 

@@ -1,0 +1,6 @@
+
+def do_siteconfig(d):
+	bb.build.exec_func('autotools_do_siteconfig', d)
+
+
+do_siteconfig(d)

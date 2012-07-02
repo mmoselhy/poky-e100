@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493984.73 
+pseudo-native-1.2-r5: do_populate_sysroot: Elapsed time: 0.43 seconds 
+CPU usage: 9.6% 
+EndIOinProgress: 0
+EndReadsComp: 497130
+EndReadsMerged: 14333586
+EndSectRead: 430962
+EndSectWrite: 49039144
+EndTimeIO: 322306
+EndTimeReads: 138419
+EndTimeWrite: 11616624
+EndWTimeIO: 12067324
+EndWritesComp: 722571
+StartIOinProgress: 0
+StartReadsComp: 497130
+StartReadsMerged: 14331978
+StartSectRead: 430739
+StartSectWrite: 49036424
+StartTimeIO: 322268
+StartTimeReads: 138406
+StartTimeWrite: 11616603
+StartWTimeIO: 12067080
+StartWritesComp: 722250
+Status: PASSED 
+Ended: 1332493985.16 

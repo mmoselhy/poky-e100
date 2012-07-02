@@ -1,0 +1,4 @@
+gtree.c: In function 'g_tree_node_rotate_left':
+gtree.c:647:14: warning: variable 'left' set but not used [-Wunused-but-set-variable]
+gtree.c: At top level:
+gtree.c:717:1: warning: 'g_tree_node_check' defined but not used [-Wunused-function]

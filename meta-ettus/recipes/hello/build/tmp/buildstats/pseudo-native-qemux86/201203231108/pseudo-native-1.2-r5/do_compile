@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493980.11 
+pseudo-native-1.2-r5: do_compile: Elapsed time: 3.70 seconds 
+CPU usage: 11.6% 
+EndIOinProgress: 0
+EndReadsComp: 497130
+EndReadsMerged: 14322274
+EndSectRead: 430507
+EndSectWrite: 49036240
+EndTimeIO: 322169
+EndTimeReads: 138391
+EndTimeWrite: 11616603
+EndWTimeIO: 12066848
+EndWritesComp: 722250
+StartIOinProgress: 0
+StartReadsComp: 497130
+StartReadsMerged: 14272114
+StartSectRead: 428900
+StartSectWrite: 49030000
+StartTimeIO: 321636
+StartTimeReads: 138311
+StartTimeWrite: 11616496
+StartWTimeIO: 12065136
+StartWritesComp: 722200
+Status: PASSED 
+Ended: 1332493983.82 

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493694.77 
+gnu-config-native-20111111-r1: do_fetch: Elapsed time: 1.84 seconds 
+CPU usage: 0.2% 
+EndIOinProgress: 137
+EndReadsComp: 496979
+EndReadsMerged: 9549106
+EndSectRead: 247943
+EndSectWrite: 41141032
+EndTimeIO: 244777
+EndTimeReads: 121890
+EndTimeWrite: 9041233
+EndWTimeIO: 9334671
+EndWritesComp: 678054
+StartIOinProgress: 0
+StartReadsComp: 496977
+StartReadsMerged: 9385882
+StartSectRead: 245367
+StartSectWrite: 40963224
+StartTimeIO: 243353
+StartTimeReads: 121663
+StartTimeWrite: 9003677
+StartWTimeIO: 9268100
+StartWritesComp: 677072
+Status: PASSED 
+Ended: 1332493696.62 

@@ -1,0 +1,4 @@
+NOTE: Applying patch 'install.patch' (../../../../meta/recipes-devtools/quilt/quilt/install.patch)
+NOTE: self._current is None
+NOTE: patches is [{'strippath': '1', 'file': '/media/OE/poky/meta/recipes-devtools/quilt/quilt/install.patch', 'filemd5': 'bc33815a2080741affd7879254a312c4'}]
+NOTE: applying patch {'strippath': '1', 'file': '/media/OE/poky/meta/recipes-devtools/quilt/quilt/install.patch', 'filemd5': 'bc33815a2080741affd7879254a312c4'}

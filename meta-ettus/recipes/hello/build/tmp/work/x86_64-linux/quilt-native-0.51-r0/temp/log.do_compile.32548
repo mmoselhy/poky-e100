@@ -1,0 +1,44 @@
+NOTE: make
+bin/quilt.in -> bin/quilt
+bin/guards.in -> bin/guards
+quilt/grep.in -> quilt/grep
+quilt/upgrade.in -> quilt/upgrade
+quilt/refresh.in -> quilt/refresh
+quilt/next.in -> quilt/next
+quilt/files.in -> quilt/files
+quilt/revert.in -> quilt/revert
+quilt/pop.in -> quilt/pop
+quilt/header.in -> quilt/header
+quilt/remove.in -> quilt/remove
+quilt/annotate.in -> quilt/annotate
+quilt/graph.in -> quilt/graph
+quilt/edit.in -> quilt/edit
+quilt/mail.in -> quilt/mail
+quilt/diff.in -> quilt/diff
+quilt/delete.in -> quilt/delete
+quilt/top.in -> quilt/top
+quilt/new.in -> quilt/new
+quilt/import.in -> quilt/import
+quilt/previous.in -> quilt/previous
+quilt/applied.in -> quilt/applied
+quilt/fold.in -> quilt/fold
+quilt/fork.in -> quilt/fork
+quilt/patches.in -> quilt/patches
+quilt/snapshot.in -> quilt/snapshot
+quilt/add.in -> quilt/add
+quilt/push.in -> quilt/push
+quilt/series.in -> quilt/series
+quilt/setup.in -> quilt/setup
+quilt/rename.in -> quilt/rename
+quilt/unapplied.in -> quilt/unapplied
+quilt/scripts/patchfns.in -> quilt/scripts/patchfns
+quilt/scripts/inspect.in -> quilt/scripts/inspect
+quilt/scripts/dependency-graph.in -> quilt/scripts/dependency-graph
+quilt/scripts/edmail.in -> quilt/scripts/edmail
+quilt/scripts/remove-trailing-ws.in -> quilt/scripts/remove-trailing-ws
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -Wall -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -DPACKAGE_NAME=\"quilt\" -DPACKAGE_TARNAME=\"quilt\" -DPACKAGE_VERSION=\"0.51\" -DPACKAGE_STRING=\"quilt\ 0.51\" -DPACKAGE_BUGREPORT=\"quilt-dev@nongnu.org\" -DSTDC_HEADERS=1 -DHAVE_FCHMOD=1 -DHAVE_CHMOD=1 -DHAVE_MKSTEMP=1 -DHAVE_MKDIR=1 -DHAVE_RMDIR=1 -DHAVE_STRCHR=1 -DHAVE_STRRCHR=1 -DHAVE_STRERROR=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DLSTAT_FOLLOWS_SLASHED_SYMLINK=1 -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1 -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1  lib/backup-files.c   -o lib/backup-files
+Generating /usr/bin/gawk wrapper
+Generating /usr/sbin/sendmail wrapper
+README.in -> README
+quilt.1.in -> quilt.1
+/usr/bin/pod2man bin/guards > bin/guards.1

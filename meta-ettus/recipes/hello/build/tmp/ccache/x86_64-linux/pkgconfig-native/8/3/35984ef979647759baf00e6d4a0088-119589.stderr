@@ -1,0 +1,4 @@
+gstring.c: In function 'g_string_down':
+gstring.c:446:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+gstring.c: In function 'g_string_up':
+gstring.c:465:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]

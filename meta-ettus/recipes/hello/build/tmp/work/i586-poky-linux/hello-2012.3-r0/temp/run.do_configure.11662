@@ -1,0 +1,85 @@
+#!/bin/sh -e
+export prefix="/usr"
+export STRIP="i586-poky-linux-strip"
+export localstatedir="/var"
+export BUILD_CC="ccache gcc"
+export USER="mmoselhy"
+export libexecdir="/usr/libexec"
+export datadir="/usr/share"
+export BUILD_CXX="ccache g++"
+export sysconfdir="/etc"
+export LD="i586-poky-linux-ld --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export bindir="/usr/bin"
+export TARGET_CXXFLAGS="-O2 -pipe -g -feliminate-unused-debug-types -fpermissive"
+export MAKE="make"
+export includedir="/usr/include"
+export BUILD_LDFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+unset TARGET_ARCH
+export CCACHE_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/ccache/i586-poky-linux/hello"
+export BUILD_LD="ld"
+export oldincludedir="/usr/include"
+export BUILD_CCLD="gcc"
+export BUILD_CPP="cpp"
+export BUILD_CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export docdir="/usr/share/doc"
+export infodir="/usr/share/info"
+export CC="ccache i586-poky-linux-gcc  -m32   -march=i586 --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export TERM="xterm"
+export RANLIB="i586-poky-linux-ranlib"
+export base_sbindir="/sbin"
+export CXX="ccache i586-poky-linux-g++  -m32   -march=i586 --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export BUILD_RANLIB="ranlib"
+export PKG_CONFIG_PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86//usr/lib/pkgconfig:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86/usr/share/pkgconfig"
+export BUILD_NM="nm"
+export AS="i586-poky-linux-as"
+export BUILD_CPPFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_AS="as"
+export CPP="i586-poky-linux-gcc -E --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86  -m32   -march=i586"
+export mandir="/usr/share/man"
+export PKG_CONFIG_SYSROOT_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export BUILD_CXXFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -fpermissive"
+export OBJCOPY="i586-poky-linux-objcopy"
+export servicedir="/srv"
+export HOME="/home/mmoselhy"
+export LC_ALL="C"
+export exec_prefix="/usr"
+export CCLD="ccache i586-poky-linux-gcc  -m32   -march=i586 --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export base_libdir="/lib"
+export LOGNAME="mmoselhy"
+export PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/i586-poky-linux:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86/usr/bin/crossscripts:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux//bin:/media/OE/poky/scripts:/media/OE/poky/bitbake/bin/:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mmoselhy/.local/bin:/home/mmoselhy/bin:/media/OE/poky/scripts"
+export TARGET_CFLAGS="-O2 -pipe -g -feliminate-unused-debug-types"
+export base_bindir="/bin"
+export PKG_CONFIG_LIBDIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86//usr/lib/pkgconfig"
+unset MACHINE
+export sbindir="/usr/sbin"
+export CFLAGS="-O2 -pipe -g -feliminate-unused-debug-types"
+export BUILD_AR="ar"
+export sharedstatedir="/com"
+export OBJDUMP="i586-poky-linux-objdump"
+unset DISTRO
+export PKG_CONFIG_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86//usr/lib/pkgconfig"
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/usr/lib"
+export PSEUDO_DISABLED="1"
+export BUILD_F77="ccache g77"
+export SHELL="/bin/bash"
+export AR="i586-poky-linux-ar"
+export PATCH_GET="0"
+export CXXFLAGS="-O2 -pipe -g -feliminate-unused-debug-types -fpermissive -fvisibility-inlines-hidden"
+export NM="i586-poky-linux-nm"
+export F77="ccache i586-poky-linux-g77  -m32   -march=i586 --sysroot=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/qemux86"
+export BUILD_STRIP="strip"
+do_configure() {
+	base_do_configure
+
+}
+
+base_do_configure() {
+	:
+
+}
+
+cd /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/i586-poky-linux/hello-2012.3-r0
+do_configure

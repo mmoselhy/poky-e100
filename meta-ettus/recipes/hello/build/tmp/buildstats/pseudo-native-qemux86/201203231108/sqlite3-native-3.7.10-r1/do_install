@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493972.91 
+sqlite3-native-3.7.10-r1: do_install: Elapsed time: 0.31 seconds 
+CPU usage: 7.2% 
+EndIOinProgress: 1
+EndReadsComp: 497127
+EndReadsMerged: 14184914
+EndSectRead: 421297
+EndSectWrite: 48997824
+EndTimeIO: 317850
+EndTimeReads: 137177
+EndTimeWrite: 11615869
+EndWTimeIO: 12056917
+EndWritesComp: 719933
+StartIOinProgress: 0
+StartReadsComp: 497127
+StartReadsMerged: 14177354
+StartSectRead: 420327
+StartSectWrite: 48996144
+StartTimeIO: 317584
+StartTimeReads: 137175
+StartTimeWrite: 11615863
+StartWTimeIO: 12055942
+StartWritesComp: 719933
+Status: PASSED 
+Ended: 1332493973.22 

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493796.06 
+automake-native-1.11.2-r2: do_configure: Elapsed time: 2.18 seconds 
+CPU usage: 3.2% 
+EndIOinProgress: 1
+EndReadsComp: 496999
+EndReadsMerged: 13682506
+EndSectRead: 321037
+EndSectWrite: 44630176
+EndTimeIO: 290586
+EndTimeReads: 129121
+EndTimeWrite: 10326009
+EndWTimeIO: 10666731
+EndWritesComp: 705833
+StartIOinProgress: 1
+StartReadsComp: 496999
+StartReadsMerged: 13622042
+StartSectRead: 319897
+StartSectWrite: 44630176
+StartTimeIO: 289526
+StartTimeReads: 129121
+StartTimeWrite: 10326009
+StartWTimeIO: 10665594
+StartWritesComp: 705833
+Status: PASSED 
+Ended: 1332493798.24 

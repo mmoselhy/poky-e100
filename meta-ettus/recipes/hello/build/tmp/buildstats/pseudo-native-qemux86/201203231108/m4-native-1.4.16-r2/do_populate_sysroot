@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493755.46 
+m4-native-1.4.16-r2: do_populate_sysroot: Elapsed time: 0.20 seconds 
+CPU usage: 8.2% 
+EndIOinProgress: 1
+EndReadsComp: 496999
+EndReadsMerged: 13040714
+EndSectRead: 309843
+EndSectWrite: 43459888
+EndTimeIO: 280568
+EndTimeReads: 125447
+EndTimeWrite: 9942293
+EndWTimeIO: 10271847
+EndWritesComp: 698062
+StartIOinProgress: 1
+StartReadsComp: 496999
+StartReadsMerged: 13031306
+StartSectRead: 309704
+StartSectWrite: 43459888
+StartTimeIO: 280441
+StartTimeReads: 125447
+StartTimeWrite: 9942293
+StartWTimeIO: 10271708
+StartWritesComp: 698062
+Status: PASSED 
+Ended: 1332493755.66 

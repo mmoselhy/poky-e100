@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493721.08 
+m4-native-1.4.16-r2: do_patch: Elapsed time: 0.08 seconds 
+CPU usage: 3.4% 
+EndIOinProgress: 0
+EndReadsComp: 496988
+EndReadsMerged: 10939986
+EndSectRead: 273937
+EndSectWrite: 42452104
+EndTimeIO: 259896
+EndTimeReads: 123837
+EndTimeWrite: 9598989
+EndWTimeIO: 9892685
+EndWritesComp: 691758
+StartIOinProgress: 5
+StartReadsComp: 496988
+StartReadsMerged: 10935394
+StartSectRead: 273876
+StartSectWrite: 42452104
+StartTimeIO: 259848
+StartTimeReads: 123837
+StartTimeWrite: 9598989
+StartWTimeIO: 9892624
+StartWritesComp: 691758
+Status: PASSED 
+Ended: 1332493721.15 

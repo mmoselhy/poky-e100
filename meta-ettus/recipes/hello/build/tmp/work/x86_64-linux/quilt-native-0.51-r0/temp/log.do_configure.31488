@@ -1,0 +1,90 @@
+NOTE: Running /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/quilt-native-0.51-r0/quilt-0.51/configure  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		   --disable-nls 
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-dependency-tracking
+checking for x86_64-linux-gcc... ccache gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc  -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for fchmod... yes
+checking for chmod... yes
+checking for mkstemp... yes
+checking for mkdir... yes
+checking for rmdir... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strerror... yes
+checking for an ANSI C-conforming const... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether #! works in shell scripts... yes
+checking for bash... /bin/bash
+checking whether /bin/bash quoting works... yes
+checking for gcp... no
+checking for cp... /bin/cp
+checking for gdate... no
+checking for date... /bin/date
+checking whether /bin/date --rfc-822 works... yes
+checking for perl... /usr/bin/perl
+checking for grep... (cached) /bin/grep
+checking whether /bin/grep -q works... yes
+checking whether /bin/grep understands (foo|bar)... yes
+checking for tail... /usr/bin/tail
+checking whether /usr/bin/tail -n works... yes
+checking for tr... /usr/bin/tr
+checking whether /usr/bin/tr understands a-z ... yes
+checking for sed... /bin/sed
+checking whether /bin/sed understands (foo|bar)... yes
+checking for gawk... /usr/bin/gawk
+checking whether /usr/bin/gawk supports sub... yes
+checking for pod2man... /usr/bin/pod2man
+checking for column... /usr/bin/column
+checking for getopt... /usr/bin/getopt
+checking for getopt --long syntax... yes
+checking for mktemp... /bin/mktemp
+checking whether /bin/mkNOTE: Checking autotools environment for common misconfiguration
+NOTE: quilt-native: md5 checksum matched for file://COPYING;md5=94d55d512a9ba36caa9b7df079bae19f
+temp -d works... yes
+checking for diff... /usr/bin/diff
+checking for patch... /usr/bin/patch
+checking the version of /usr/bin/diff... 3.2
+checking the version of /usr/bin/patch... 2.6.1
+checking for find... /usr/bin/find
+checking whether /usr/bin/find -path works... yes
+checking for xargs... /usr/bin/xargs
+checking for diffstat... /usr/bin/diffstat
+checking for diffstat version... 1.54
+checking for sendmail... /usr/sbin/sendmail
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msguniq... /usr/bin/msguniq
+checking for msgcat... /usr/bin/msgcat
+configure: Building without natural language support
+checking for rpmbuild... /usr/bin/rpmbuild
+configure: creating ./config.status
+config.status: creating Makefile
+configure: WARNING: unrecognized options: --disable-silent-rules, --disable-dependency-tracking
+
+quilt version 0.51 configured.
+
+Using '/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr' for installation prefix.
+
+Report bugs to quilt-dev@nongnu.org

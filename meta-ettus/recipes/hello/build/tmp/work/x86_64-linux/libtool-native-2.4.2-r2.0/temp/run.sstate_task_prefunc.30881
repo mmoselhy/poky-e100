@@ -1,0 +1,7 @@
+
+def sstate_task_prefunc(d):
+    shared_state = sstate_state_fromvars(d)
+    sstate_clean(shared_state, d)
+
+
+sstate_task_prefunc(d)

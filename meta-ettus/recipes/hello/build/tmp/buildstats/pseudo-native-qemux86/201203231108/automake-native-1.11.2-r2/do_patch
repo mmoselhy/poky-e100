@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493795.11 
+automake-native-1.11.2-r2: do_patch: Elapsed time: 0.48 seconds 
+CPU usage: 4.4% 
+EndIOinProgress: 1
+EndReadsComp: 496999
+EndReadsMerged: 13616066
+EndSectRead: 319488
+EndSectWrite: 44630176
+EndTimeIO: 289181
+EndTimeReads: 129121
+EndTimeWrite: 10326009
+EndWTimeIO: 10665188
+EndWritesComp: 705833
+StartIOinProgress: 160
+StartReadsComp: 496999
+StartReadsMerged: 13613426
+StartSectRead: 319096
+StartSectWrite: 44572088
+StartTimeIO: 288772
+StartTimeReads: 127783
+StartTimeWrite: 10292345
+StartWTimeIO: 10632887
+StartWritesComp: 705833
+Status: PASSED 
+Ended: 1332493795.60 

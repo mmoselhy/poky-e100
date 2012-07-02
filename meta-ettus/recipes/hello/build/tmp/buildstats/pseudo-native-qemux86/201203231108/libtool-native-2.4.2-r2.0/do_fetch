@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1332493802.08 
+libtool-native-2.4.2-r2.0: do_fetch: Elapsed time: 27.09 seconds 
+CPU usage: 0.1% 
+EndIOinProgress: 0
+EndReadsComp: 497109
+EndReadsMerged: 13755306
+EndSectRead: 325961
+EndSectWrite: 45420752
+EndTimeIO: 293792
+EndTimeReads: 130513
+EndTimeWrite: 10455216
+EndWTimeIO: 10800861
+EndWritesComp: 711313
+StartIOinProgress: 0
+StartReadsComp: 497108
+StartReadsMerged: 13754442
+StartSectRead: 325545
+StartSectWrite: 44962832
+StartTimeIO: 292655
+StartTimeReads: 129594
+StartTimeWrite: 10433979
+StartWTimeIO: 10779207
+StartWritesComp: 709580
+Status: PASSED 
+Ended: 1332493829.17 

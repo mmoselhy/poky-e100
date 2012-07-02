@@ -1,0 +1,3 @@
+SANITY_VERSION 1
+TMPDIR /media/OE/poky/meta-ettus/recipes/hello/build/tmp
+SSTATE_DIR /media/OE/poky/meta-ettus/recipes/hello/build/sstate-cache

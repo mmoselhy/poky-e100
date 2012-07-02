@@ -1,0 +1,206 @@
+#!/bin/sh -e
+export prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"
+export config_BUILD_LIBS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export STRIP="strip"
+export localstatedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var"
+export USER="mmoselhy"
+export libexecdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec"
+export datadir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share"
+export BUILD_CXX="ccache g++"
+export sysconfdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc"
+export LD="ld"
+export LDFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export bindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin"
+export config_BUILD_CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export TARGET_CXXFLAGS="-O2 -pipe -g -feliminate-unused-debug-types -fpermissive"
+export MAKE="make"
+export includedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export config_BUILD_CC="ccache gcc"
+export BUILD_CC="ccache gcc"
+export BUILD_LDFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+unset TARGET_ARCH
+export CCACHE_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/ccache/x86_64-linux/sqlite3-native"
+export BUILD_LD="ld"
+export oldincludedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CCLD="gcc"
+export BUILD_CPP="cpp"
+export BUILD_CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export docdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/doc"
+export infodir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info"
+export base_prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux"
+export CC="ccache gcc"
+export TERM="xterm"
+export RANLIB="ranlib"
+export CPPFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export config_TARGET_LINK="ccache gcc"
+export base_sbindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin"
+export CXX="ccache g++"
+export BUILD_RANLIB="ranlib"
+export PKG_CONFIG_PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/pkgconfig"
+export BUILD_NM="nm"
+export AS="as"
+export AR="ar"
+unset lt_cv_sys_lib_dlsearch_path_spec
+export BUILD_CPPFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include"
+export CPP="gcc  -E"
+export mandir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man"
+export BUILD_CXXFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -fpermissive"
+export OBJCOPY="objcopy"
+export config_TARGET_LFLAGS="-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export servicedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/srv"
+export HOME="/home/mmoselhy"
+export exec_prefix="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"
+export CCLD="ccache gcc"
+export LC_ALL="C"
+export base_libdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib"
+export LOGNAME="mmoselhy"
+export PATH="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/i586-linux:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/sbin:/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux//bin:/media/OE/poky/scripts/native-intercept:/media/OE/poky/bitbake/bin/:/media/OE/poky/scripts:/media/OE/poky/bitbake/bin/:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mmoselhy/.local/bin:/home/mmoselhy/bin:/media/OE/poky/scripts"
+export TARGET_CFLAGS="-O2 -pipe -g -feliminate-unused-debug-types"
+export base_bindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/bin"
+export PKG_CONFIG_LIBDIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+unset MACHINE
+export sbindir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin"
+export CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export BUILD_AR="ar"
+export BUILD_AS="as"
+export sharedstatedir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com"
+export OBJDUMP="objdump"
+unset DISTRO
+export config_TARGET_CFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export PKG_CONFIG_DIR="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib"
+export PSEUDO_DISABLED="1"
+export BUILD_F77="ccache g77"
+export SHELL="/bin/bash"
+export PATCH_GET="0"
+export CXXFLAGS="-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export config_TARGET_CC="ccache gcc"
+export NM="nm"
+export F77="ccache g77"
+export BUILD_STRIP="strip"
+do_configure() {
+	autotools_do_configure
+
+}
+
+autotools_do_configure() {
+	case sqlite3-native in
+	autoconf*)
+	;;
+	automake*)
+	;;
+	*)
+		# WARNING: gross hack follows:
+		# An autotools built package generally needs these scripts, however only
+		# automake or libtoolize actually install the current versions of them.
+		# This is a problem in builds that do not use libtool or automake, in the case
+		# where we -need- the latest version of these scripts.  e.g. running a build
+		# for a package whose autotools are old, on an x86_64 machine, which the old
+		# config.sub does not support.  Work around this by installing them manually
+		# regardless.
+		( for ac in `find /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000 -name configure.in -o -name configure.ac`; do
+			rm -f `dirname $ac`/configure
+			done )
+		if [ -e /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/configure.in -o -e /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/configure.ac ]; then
+			olddir=`pwd`
+			cd /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000
+			# Remove any previous copy of the m4 macros
+			rm -rf /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/
+			if [ x"default" = xdefault ]; then
+				acpaths=
+				for i in `find /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000 -maxdepth 2 -name \*.m4|grep -v 'aclocal.m4'| \
+					grep -v 'acinclude.m4' | sed -e 's,\(.*/\).*$,\1,'|sort -u`; do
+					acpaths="$acpaths -I $i"
+				done
+			else
+				acpaths="default"
+			fi
+			AUTOV=`automake --version |head -n 1 |sed "s/.* //;s/\.[0-9]\+$//"`
+			automake --version
+			echo "AUTOV is $AUTOV"
+			if [ -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-$AUTOV ]; then
+				acpaths="$acpaths -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-$AUTOV"
+			fi
+			# The aclocal directory could get modified by other processes
+			# uninstalling data from the sysroot. See Yocto #861 for details.
+			# We avoid this by taking a copy here and then files cannot disappear.
+			if [ -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal ]; then
+				mkdir -p /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/
+				# for scratch build this directory can be empty
+				# so avoid cp's no files to copy error
+				cp -r /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal/. /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/
+				acpaths="$acpaths -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/aclocal-copy/"
+			fi
+			# autoreconf is too shy to overwrite aclocal.m4 if it doesn't look
+			# like it was auto-generated.  Work around this by blowing it away
+			# by hand, unless the package specifically asked not to run aclocal.
+			if ! echo --exclude=autopoint | grep -q "aclocal"; then
+				rm -f aclocal.m4
+			fi
+			if [ -e configure.in ]; then
+			  CONFIGURE_AC=configure.in
+			else
+			  CONFIGURE_AC=configure.ac
+			fi
+			if ! echo --disable-tcl --enable-shared --enable-threadsafe --disable-readline --enable-tempstore | grep -q "\-\-disable-nls"; then
+			  if grep "^[[:space:]]*AM_GLIB_GNU_GETTEXT" $CONFIGURE_AC >/dev/null; then
+			    if grep "sed.*POTFILES" $CONFIGURE_AC >/dev/null; then
+			      : do nothing -- we still have an old unmodified configure.ac
+			    else
+			      bbnote Executing glib-gettextize --force --copy
+			      echo "no" | glib-gettextize --force --copy
+			    fi
+			  else if grep "^[[:space:]]*AM_GNU_GETTEXT" $CONFIGURE_AC >/dev/null; then
+                            # We'd call gettextize here if it wasn't so broken...
+			    cp /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/gettext/config.rpath /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/
+			    if [ -d /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/po/ -a ! -e /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/po/Makefile.in.in ]; then
+			      cp /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/gettext/po/Makefile.in.in /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/po/
+                            fi
+			  fi
+			fi
+			fi
+			mkdir -p m4
+			if grep "^[[:space:]]*[AI][CT]_PROG_INTLTOOL" $CONFIGURE_AC >/dev/null; then
+			  bbnote Executing intltoolize --copy --force --automake
+			  intltoolize --copy --force --automake
+			fi
+			bbnote Executing autoreconf --verbose --install --force --exclude=autopoint $acpaths
+			autoreconf -Wcross --verbose --install --force --exclude=autopoint $acpaths || bbfatal "autoreconf execution failed."
+			cd $olddir
+		fi
+	;;
+	esac
+	if [ -e /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/configure ]; then
+		oe_runconf
+	else
+		bbnote "nothing to configure"
+	fi
+
+}
+
+bbfatal() {
+	echo "ERROR: $*"
+	exit 1
+
+}
+
+bbnote() {
+	echo "NOTE: $*"
+
+}
+
+oe_runconf() {
+	cfgscript="/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000/configure"
+	if [ -x "$cfgscript" ] ; then
+		bbnote "Running $cfgscript  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		   --disable-tcl --enable-shared --enable-threadsafe --disable-readline --enable-tempstore $@"
+		${CACHED_CONFIGUREVARS} $cfgscript  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		   --disable-tcl --enable-shared --enable-threadsafe --disable-readline --enable-tempstore "$@" || bbfatal "oe_runconf failed"
+	else
+		bbfatal "no configure script found at $cfgscript"
+	fi
+
+}
+
+cd /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/sqlite3-native-3.7.10-r1/sqlite-autoconf-3071000
+do_configure

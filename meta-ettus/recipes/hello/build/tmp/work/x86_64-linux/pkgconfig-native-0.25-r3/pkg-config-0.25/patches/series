@@ -1,0 +1,2 @@
+autofoo.patch -p1
+disable-legacy.patch -p1

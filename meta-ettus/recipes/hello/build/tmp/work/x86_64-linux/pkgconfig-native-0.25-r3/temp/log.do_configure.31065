@@ -1,0 +1,540 @@
+automake (GNU automake) 1.11.2
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv2+: GNU GPL version 2 or later <http://gnu.org/licenses/gpl-2.0.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Tom Tromey <tromey@redhat.com>
+       and Alexandre Duret-Lutz <adl@gnu.org>.
+AUTOV is 1.11
+NOTE: Executing autoreconf --verbose --install --force --exclude=autopoint -I . -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//aclocal-copy/
+autoreconf: Entering directory `.'
+autoreconf: configure.in: not using Gettext
+autoreconf: running: aclocal -I . -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//aclocal-copy/ -I . -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 -I /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//aclocal-copy/ --force --warnings=cross 
+aclocal: unknown warning category `cross'
+autoreconf: configure.in: tracing
+autoreconf: configure.in: adding subdirectory glib-1.2.10 to autoreconf
+autoreconf: Entering directory `glib-1.2.10'
+aclocal: unknown warning category `cross'
+configure.in:274: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:274: the top level
+configure.in:289: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:289: the top level
+configure.in:304: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:304: the top level
+configure.in:439: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:439: the top level
+configure.in:462: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:462: the top level
+configure.in:484: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:484: the top level
+configure.in:506: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:506: the top level
+configure.in:607: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2047: AC_CACHE_CHECK is expanded from...
+configure.in:607: the top level
+configure.in:638: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:638: the top level
+configure.in:884: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:884: the top level
+configure.in:931: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+configure.in:931: the top level
+configure.in:944: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+configure.in:944: the top level
+configure.in:988: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+acglib.m4:40: GLIB_SIZEOF is expanded from...
+configure.in:988: the top level
+configure.in:1005: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+acglib.m4:95: GLIB_SYSDEFS is expanded from...
+configure.in:1005: the top level
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.in and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+aclocal: unknown warning category `cross'
+autoreconf: running: /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/autoconf --include=. --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//aclocal-copy/ --force --warnings=cross
+configure.in:274: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:274: the top level
+configure.in:289: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:289: the top level
+configure.in:304: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:304: the top level
+configure.in:439: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:439: the top level
+configure.in:462: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:462: the top level
+configure.in:484: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:484: the top level
+configure.in:506: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:506: the top level
+configure.in:607: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2047: AC_CACHE_CHECK is expanded from...
+configure.in:607: the top level
+configure.in:638: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:638: the top level
+configure.in:884: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+configure.in:884: the top level
+configure.in:931: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+configure.in:931: the top level
+configure.in:944: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+configure.in:944: the top level
+configure.in:988: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+../../lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2026: AC_CACHE_VAL is expanded from...
+acglib.m4:40: GLIB_SIZEOF is expanded from...
+configure.in:988: the top level
+configure.in:1005: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2743: AC_RUN_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2759: AC_TRY_RUN is expanded from...
+acglib.m4:95: GLIB_SYSDEFS is expanded from...
+configure.in:1005: the top level
+autoreconf: running: /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin/autoheader --include=. --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/aclocal-1.11 --include=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//aclocal-copy/ --force --warnings=cross
+autoheader: WARNING: Using auxiliary files such as `acconfig.h', `config.h.bot'
+autoheader: WARNING: and `config.h.top', to define templates for `config.h.in'
+autoheader: WARNING: is deprecated and discouraged.
+autoheader: 
+autoheader: WARNING: Using the third argument of `AC_DEFINE' and
+autoheader: WARNING: `AC_DEFINE_UNQUOTED' allows one to define a template without
+autoheader: WARNING: `acconfig.h':
+autoheader: 
+autoheader: WARNING:   AC_DEFINE([NEED_FUNC_MAIN], 1,
+autoheader: 		[Define if a function `main' is needed.])
+autoheader: 
+autoheader: WARNING: More sophisticated templates can also be produced, see the
+autoheader: WARNING: documentation.
+autoreconf: running: automake --foreign --add-missing --copy --force-missing --warnings=cross
+automake: unknown warning category `cross'
+Makefile.am:92: noinst_DATA multiply defined in condition TRUE ...
+Makefile.am:89: ... `noinst_DATA' previously defined here
+autoreconf: running: gnu-configize
+autoreconf: Leaving directory `glib-1.2.10'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.in and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+aclocal: unknown warning category `cross'
+autoheader: WARNING: Using auxiliary files such as `acconfig.h', `config.h.bot'
+autoheader: WARNING: and `config.h.top', to define templates for `config.h.in'
+autoheader: WARNING: is deprecated and discouraged.
+autoheader: 
+autoheader: WARNING: Using the third argument of `AC_DEFINE' and
+autoheader: WARNING: `AC_DEFINE_UNQUOTED' allows one to define a template without
+autoheader: WARNING: `acconfig.h':
+autoheader: 
+autoheader: WARNING:   AC_DEFINE([NEED_FUNC_MAIN], 1,
+autoheader: 		[Define if a function `main' is needed.])
+autoheader: 
+autoheader: WARNING: More sophisticated templates can also be produced, see the
+autoheader: WARNING: documentation.
+automake: unknown warning category `cross'
+autoreconf: Leaving directory `.'
+NOTE: Running /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//configure  --build=x86_64-linux 		  --host=x86_64-linux 		  --target=x86_64-linux 		  --prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr 		  --bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin 		  --sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin 		  --libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec 		  --datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share 		  --sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc 		  --sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com 		  --localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var 		  --libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib 		  --includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include 		  --infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info 		  --mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man 		  --disable-silent-rules 		  --disable-dependency-tracking 		   --disable-legacy-scripts 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for x86_64-linux-gcc... ccache gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking dependency style of ccache gcc... none
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by ccache gcc... ld
+checking if the linker (ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... nm
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for ld option to reload object files... -r
+checking for x86_64-linux-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-linux-strip... strip
+checking for x86_64-linux-ranlib... ranlib
+checking command to parse nm output from ccache gcc object... ok
+checking for sysroot... no
+checking for x86_64-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc  -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache gcc supports -fno-rtti -fno-exceptions... no
+checking for ccache gcc option to produce PIC... -fPIC -DPIC
+checking if ccache gcc PIC flag -fPIC -DPIC works... yes
+checking if ccache gcc static flag -static works... yes
+checking if ccache gcc supports -c -o file.o... yes
+checking if ccache gcc supports -c -o file.o... (cached) yes
+checking whether the ccache gcc linker (ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for x86_64-linux-gcc... (cached) ccache gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache gcc accepts -g... (cached) yes
+checking for ccache gcc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache gcc... (cached) none
+checking for default search path for .pc files... ${libdir}/pkgconfig:${datadir}/pkgconfig
+checking whether to list both direct and indirect dependencies... /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25//configure: line 12063: ./libtool: No such file or directory
+no
+checking for Win32... no
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for setresuid... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking for unistd.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating popt/Makefile
+config.status: creating check/Makefile
+config.status: creating check/config.sh
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in glib-1.2.10 (/media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/pkgconfig-native-0.25-r3/pkg-config-0.25/glib-1.2.10)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr'  '--build=x86_64-linux' '--host=x86_64-linux' '--target=x86_64-linux' '--exec_prefix=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr' '--bindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/bin' '--sbindir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/sbin' '--libexecdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/libexec' '--datadir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share' '--sysconfdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/etc' '--sharedstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/com' '--localstatedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/var' '--libdir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib' '--includedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include' '--oldincludedir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include' '--infodir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/info' '--mandir=/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/share/man' '--disable-silent-rules' '--disable-dependency-tracking' '--disable-legacy-scripts' 'build_alias=x86_64-linux' 'host_alias=x86_64-linux' 'target_alias=x86_64-linux' 'CC=ccache gcc' 'CFLAGS=-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe' 'LDFLAGS=-L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1' 'CPPFLAGS=-isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include' 'CPP=gcc  -E' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for x86_64-linux-gcc... ccache gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking dependency style of ccache gcc... none
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by ccache gcc... ld -m elf_x86_64
+checking if the linker (ld -m elf_x86_64) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... nm
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for ld -m elf_x86_64 option to reload object files... -r
+checking for x86_64-linux-objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-linux-strip... strip
+checking for x86_64-linux-ranlib... ranlib
+checking command to parse nm output from ccache gcc object... ok
+checking for sysroot... no
+checking for x86_64-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc  -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache gcc supports -fno-rtti -fno-exceptions... no
+checking for ccache gcc option to produce PIC... -fPIC -DPIC
+checking if ccache gcc PIC flag -fPIC -DPIC works... yes
+checking if ccache gcc static flag -static works... yes
+checking if ccache gcc supports -c -o file.o... yes
+checking if ccache gcc supports -c -o file.o... (cached) yes
+checking whether the ccache gcc linker (ld -m elf_x86_64 -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether to enable memory checking... no
+checking whether to enable memory profiling... no
+checking for x86_64-linux-gcc... (cached) ccache gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache gcc accepts -g... (cached) yes
+checking for ccache gcc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache gcc... (cached) none
+checking for x86_64-linux-gcc... (cached) ccache gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache gcc accepts -g... (cached) yes
+checking for ccache gcc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache gcc... (cached) none
+checking for extra flags to get ANSI library prototypes... none needed
+checking for extra flags for POSIX compliance... none needed
+checking for ANSI C header files... (cached) yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for atexit... yes
+checking for on_exit... yes
+checking size of char... 1
+checking size of short... 2
+checking size of long... 8
+checking size of int... 4
+checking size of void *... 8
+checking size of long long... 8
+checking for an ANSI C-conforming const... yes
+checking for __inline... yes
+checking for __inline__... yes
+checking for inline... yes
+checking whether byte ordering is bigendian... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for unistd.h... (cached) yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking for lstat... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for memmove... yes
+checking for vsnprintf... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for poll... yes
+checking for sys_errlist... yes
+checking for sys_siglist... yes
+checking for sys_siglist declaration... yes
+checking for fd_set... yes, found in sys/types.h
+checking for wchar.h... yes
+checking for wctype.h... yes
+checking for iswalnum... yes
+checking if iswalnum() and friends are properly defined... yes
+checking whether realloc (NULL,) will work... yes
+checking for an implementation of va_copy()... yes
+checking for an implementation of __va_copy()... yes
+checking whether va_lists can be copied by value... no
+configure: WARNING: hi mom
+checking for dlopen... no
+checking for dlopen... (cached) no
+checking for dlopen in -ldl... yes
+checking for dlsym in -ldl... yes
+checking for RTLD_GLOBAL brokenness... no
+checking for preceeding underscore in symbols... no
+checking for dlerror... yes
+configure: WARNING: hi mom
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for thread implementation... posix
+checking for pthread_attr_init in -lpthread... yes
+checking necessary linker options... -lpthread
+checking necessary compiler options...  -D_REENTRANT
+checking for localtime_r... yes
+checking for rand_r... yes
+checking for getpwuid_r... yes
+checking whether getpwuid_r is posix like... yes
+checking whether pthread_getspecific is posix like... yes
+checking whether pthread_mutex_trylock is posix like... yes
+checking whether pthread_cond_timedwait is posix like... yes
+checking size of pthread_mutex_t... 40
+checking byte contents of pthread_mutex_t... 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+checking system definitions for POLLIN POLLOUT POLLPRI POLLERR POLLHUP POLLNVAL... done
+configure: creating ./config.status
+config.status: creating glib.spec
+config.status: creating Makefile
+config.status: creating glib-config
+config.status: creating gmodule/gmoduleconf.h
+config.status: creating gmodule/Makefile
+config.status: creating gthread/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/glib-confiNOTE: Checking autotools environment for common misconfiguration
+NOTE: pkgconfig-native: md5 checksum matched for file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263
+g.1
+config.status: creating tests/Makefile
+config.status: creating glib.pc
+config.status: creating gmodule.pc
+config.status: creating gthread.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+creating glibconfig.h
+config.status: executing default commands

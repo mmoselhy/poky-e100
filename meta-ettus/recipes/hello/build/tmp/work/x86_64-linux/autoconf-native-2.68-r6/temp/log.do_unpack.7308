@@ -1,0 +1,10 @@
+NOTE: Unpacking /media/OE/poky/meta-ettus/recipes/hello/build/downloads/autoconf-2.68.tar.bz2 to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/program_prefix.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-include.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-exclude.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-foreign.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-gnuconfigize.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/autoheader-nonfatal-warnings.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/config_site.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/remove-usr-local-lib-from-m4.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/
+NOTE: Unpacking /media/OE/poky/meta/recipes-devtools/autoconf/autoconf/fix_path_xtra.patch to /media/OE/poky/meta-ettus/recipes/hello/build/tmp/work/x86_64-linux/autoconf-native-2.68-r6/

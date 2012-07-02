@@ -1,0 +1,145 @@
+SQLite header for version 3007010 found.
+NOTE: make -e MAKEFLAGS=
+mkdir -p lib/pseudo/lib64
+./makewrappers
+Checking for old/new clone mechanics...New clone.
+ports/common/wrapfuncs.in: .......
+ports/linux/wrapfuncs.in: .............................................................
+ports/unix/wrapfuncs.in: ........................................................
+ports/uids_generic/wrapfuncs.in: ........................
+ports/linux/newclone/wrapfuncs.in: .
+Writing functions... Warning: lchown from linux overriding unix
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path oldpath: prefix <>
+for path newpath: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path oldpath: prefix <>
+for path newpath: prefix <>
+for path oldpath: prefix <old>
+for path newpath: prefix <new>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path newpath: prefix <>
+for path newpath: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+for path path: prefix <>
+done.  Cleaning up.
+./maketables enums/*.in
+enums/msg_type.in: type: msg_type_t (prefix 'PSEUDO_MSG_ENUM')
+   ping               shutdown           op                 ack                
+   nak                
+
+enums/op.in: type: op_t (prefix 'OP_ENUM')
+   chdir              chmod              chown              chroot             
+   close              creat              dup                fchmod             
+   fchown             fstat              link               mkdir              
+   mknod              open               rename             stat               
+   unlink             symlink            exec               may-unlink         
+   did-unlink         cancel-unlink      
+
+enums/query_field.in: type: query_field_t (prefix 'PSQF_ENUM')
+   access             client             dev                fd                 
+   ftype              gid                id                 inode              
+   mode               op                 order              path               
+   perm               program            result             severity           
+   stamp              tag                text               type               
+   uid                
+
+enums/query_type.in: type: query_type_t (prefix 'PSQT_ENUM')
+  extra column: sql (default 'LITTLE BOBBY TABLES')
+   exact              less               greater            bitand             
+   notequal           like               notlike            sqlpat             
+
+enums/res.in: type: res_t (prefix 'RESULT_ENUM')
+   succeed            fail               error              
+
+enums/sev.in: type: sev_t (prefix 'SEVERITY_ENUM')
+   debug              info               warn               error              
+   critical           
+
+Writing datatypes... done.  Cleaning up.
+ccache gcc -fno-strict-aliasing -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -D_GNU_SOURCE -c -o pseudo_wrappers.o pseudo_wrappers.c
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_fchmodat':
+ports/unix/guts/fchmodat.c:11:6: warning: variable 'save_errno' set but not used [-Wunused-but-set-variable]
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_fchownat':
+ports/unix/guts/fchownat.c:12:6: warning: variable 'doing_link' set but not used [-Wunused-but-set-variable]
+ports/unix/guts/fchownat.c:11:6: warning: variable 'save_errno' set but not used [-Wunused-but-set-variable]
+In file included from pseudo_wrappers.c:67:0:
+pseudo_wrapfuncs.c: In function 'wrap_system':
+ports/unix/guts/system.c:11:6: warning: unused variable 'pid' [-Wunused-variable]
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo_client.c
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo_ipc.c
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -c -o pseudo_tables.o pseudo_tables.c
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo_util.c
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -shared -o lib/pseudo/lib64/libpseudo.so \
+	pseudo_client.o pseudo_ipc.o \
+	pseudo_wrappers.o pseudo_tables.o pseudo_util.o -ldl -lpthread
+mkdir -p bin
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo.c
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo_db.c
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudo_server.c
+pseudo_server.c: In function 'pseudo_server_loop':
+pseudo_server.c:440:10: warning: variable 'op' set but not used [-Wunused-but-set-variable]
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -o bin/pseudo \
+	pseudo.o pseudo_server.o pseudo_client.o pseudo_ipc.o \
+	pseudo_db.o pseudo_tables.o pseudo_util.o /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/libsqlite3.a -lpthread -ldl -lpthread
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudodb.c
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -o bin/pseudodb pseudodb.o \
+	pseudo_db.o pseudo_tables.o pseudo_util.o pseudo_ipc.o /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/libsqlite3.a -lpthread -ldl -lpthread
+ccache gcc -c -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib pseudolog.c
+ccache gcc -isystem/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -pipe -std=gnu99 -Wall -W -Wextra -fPIC -D_LARGEFILE64_SOURCE -D_ATFILE_SOURCE -m64 -DPSEUDO_PREFIX='"/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr"' -DPSEUDO_SUFFIX='""' -DPSEUDO_BINDIR='"bin"' -DPSEUDO_LIBDIR='"lib/pseudo/lib64"' -DPSEUDO_LOCALSTATEDIR='"var/pseudo"' -DPSEUDO_VERSION='"1.2"' -O2 -g -L/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -I/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/include -Wl,-R/media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib -o bin/pseudolog pseudolog.o pseudo_client.o pseudo_ipc.o \
+	pseudo_db.o pseudo_tables.o pseudo_util.o /media/OE/poky/meta-ettus/recipes/hello/build/tmp/sysroots/x86_64-linux/usr/lib/libsqlite3.a -lpthread -ldl -lpthread
