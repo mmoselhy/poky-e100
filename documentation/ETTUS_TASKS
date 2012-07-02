@@ -1,0 +1,22 @@
+new meta-openembedded then removed allbb_append files then bitbake usrp-embedded then bitbake gnuradio
+
+
+makedepend
+expat-devel
+llvm-devel
+
+
+
+
+go to /media/OE/poky/build/tmp-eglibc/work/armv7a-angstrom-linux-gnueabi/mesa-dri-2_7.11-r13.1/Mesa-7.11
+
+
+make clean
+
+and change file as http://patches.openembedded.org/patch/25499/
+then re bitbake
+
+
+Stopped here Waiting for 1 active tasks to finish:
+0: linux-usrp-embedded-3.0-pm-r0 do_compile_kernelmodules (pid 16267)
+
